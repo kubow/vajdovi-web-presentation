@@ -1,0 +1,230 @@
+/*@import "tailwindcss";*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #d91e53;
+    --color-secondary: #ffba02;
+    --color-background: #030e29;
+    --color-tertiary: #4b2ec6;
+    --color-background-faded: #101254;
+    --color-background-code: #001445;
+  }
+
+  html {
+    @apply font-sans;
+  }
+
+  body {
+    @apply min-h-screen m-0 text-white font-sans text-base antialiased;
+    background-color: var(--color-background);
+  }
+
+  /* Make focus styles visible for all interactive elements */
+  a:focus,
+  button:focus,
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline-width: 2px;
+    outline-offset: 2px;
+    outline-color: var(--color-primary);
+  }
+}
+
+@layer components {
+  /* Shared component styles for consistent design */
+  .glass-card {
+    @apply bg-gray-800/40 rounded-xl p-6 shadow-lg border border-white/10 backdrop-blur-md transition-all duration-300;
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+  }
+
+  .tag-pill {
+    @apply inline-block px-3 py-1 rounded-full text-sm font-medium bg-gray-800/40 text-white transition-all duration-200 backdrop-blur-sm;
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+  }
+
+  .tag-pill:hover {
+    background-color: var(--color-primary);
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+  }
+
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-15px) scale(1.05);
+    }
+  }
+
+  /* Particle styling */
+  .particle {
+    @apply absolute rounded-full;
+    filter: blur(1px);
+    opacity: 0.7;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* Custom prose styles for markdown content */
+  .prose {
+    @apply max-w-none text-[#efebe9];
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    @apply text-white font-bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .prose h1 {
+    @apply text-3xl;
+  }
+
+  .prose h2 {
+    @apply text-2xl;
+  }
+
+  .prose h3 {
+    @apply text-xl;
+  }
+
+  .prose h4 {
+    @apply text-lg;
+  }
+
+  .prose p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .prose a {
+    @apply text-[#FF295D] no-underline border-b border-transparent hover:border-[#FF295D];
+  }
+
+  .prose strong {
+    @apply text-white font-bold;
+  }
+
+  .prose ul,
+  .prose ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+  }
+
+  .prose li {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-[#FF295D] pl-4 italic;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .prose code {
+    @apply bg-[#001445] text-[#FFBA02] px-1 py-0.5 rounded text-sm;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .prose pre {
+    @apply bg-[#001445] p-4 rounded-lg overflow-auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+  }
+
+  .prose img {
+    @apply rounded-lg;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .prose hr {
+    @apply border-gray-700;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .prose table {
+    @apply w-full border-collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .prose th {
+    @apply text-white font-bold p-2 border border-gray-700 bg-gray-800;
+  }
+
+  .prose td {
+    @apply p-2 border border-gray-700;
+  }
+}
+
+@layer utilities {
+  .fullWidth {
+    @apply w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw];
+  }
+
+  /* Custom text color utilities */
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+}
+
+/* Custom CSS variables for colors that can be referenced in components */
+:root {
+  --bg-primary: var(--color-primary);
+  --bg-secondary: var(--color-secondary);
+  --bg-background: var(--color-background);
+}
+
+/* Custom scrollbar - keep this outside layers as it uses webkit specific selectors */
+html::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #ff295d 25%, #ffba02 50%, #fb44e3 75%, #4b2ec5 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh #fff;
+}

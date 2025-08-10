@@ -1,0 +1,1 @@
+---\ntitle: Example Art\nslug: example\n---\nContent here.
