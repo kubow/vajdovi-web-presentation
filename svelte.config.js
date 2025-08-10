@@ -24,13 +24,11 @@ const config = {
   ],
   kit: {
     adapter: adapter({
-      // default options are shown. On some platforms
-			// these options are set automatically — see below
-			pages: 'docs',
-			assets: 'docs',
-			fallback: undefined,
-			precompress: false,
-			strict: true
+      pages: process.env.OUTPUT_DIR || 'docs',
+      assets: process.env.OUTPUT_DIR || 'docs',
+      fallback: undefined,
+      precompress: false,
+      strict: true
     }),
     alias: {
       $components: resolve(__dirname, "./src/lib/components"),
@@ -40,13 +38,19 @@ const config = {
       $utils: resolve(__dirname, "./src/lib/utils"),
       $src: resolve(__dirname, "./src"),
     },
+    paths: {
+      base: process.env.BASE_PATH || '',
+    },
     prerender: {
       handleHttpError: ({ path, referrer, message }) => {
         // Ignore 404 errors for test links
         if (path.startsWith('/test/') && referrer === '/test') {
           return;
         }
-
+        // Ignore 404 for / when base path is set (for GitHub Pages build)
+        if (path === '/' && process.env.BASE_PATH && process.env.BASE_PATH !== '/') {
+          return;
+        }
         // Otherwise, throw the error
         throw new Error(message);
       }
