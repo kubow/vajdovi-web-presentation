@@ -7,7 +7,7 @@
   export let slug: string;
 </script>
 
-<a href={`/art/${slug}`} class="group block rounded-2xl border shadow-sm overflow-hidden hover:shadow-md transition">
+<a href={withBase(`/art/${slug}`)} class="group block rounded-2xl border shadow-sm overflow-hidden hover:shadow-md transition">
   <img src={withBase(image ?? '/images/art/placeholder.png')} alt={title} class="w-full h-52 object-cover" />
   <div class="p-4">
     <h3 class="text-lg font-semibold group-hover:underline">{title}</h3>
