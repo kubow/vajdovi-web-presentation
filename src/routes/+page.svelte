@@ -3,6 +3,7 @@
   import type { Person, Art } from '$lib/content';
   import PersonCard from '$components/PersonCard.svelte';
   import ArtCard from '$components/ArtCard.svelte';
+    import ArchCard from '$components/ArchCard.svelte';
 
   let people: Person[] = [];
   let art: Art[] = [];
@@ -25,10 +26,17 @@
     {/each}
   </div>
 
-  <h2 class="text-xl font-semibold mt-10">Umění</h2>
+  <h2 class="text-xl font-semibold mt-10">Obrazy</h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
     {#each art as a}
       <ArtCard title={a.title} year={a.year} image={a.image} slug={a.slug} />
+    {/each}
+  </div>
+
+  <h2 class="text-xl font-semibold mt-10">Instalace</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+    {#each art as a}
+      <ArchCard title={a.title} year={a.year} image={a.image} slug={a.slug} />
     {/each}
   </div>
 </section>
