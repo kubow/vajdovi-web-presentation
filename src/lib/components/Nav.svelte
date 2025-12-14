@@ -5,7 +5,8 @@
     { href: '/', label: 'home' },
     { href: '/people', label: 'Lidé' },
     { href: '/art', label: 'Obrazy' },
-    { href: '/arch', label: 'Instalace' }
+    { href: '/arch', label: 'Instalace' },
+    { href: '/text', label: 'Texty' }
   ];
 </script>
 
