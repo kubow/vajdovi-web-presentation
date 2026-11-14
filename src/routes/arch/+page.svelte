@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { getArch } from '$lib/content';
-  import type { Arch } from '$lib/content';
-  import ArchCard from '$components/ArchCard.svelte';
+  import { getArch } from '#lib/content';
+  import type { Arch } from '#lib/content';
+  import ArchCard from '#lib/components/ArchCard.svelte';
   let items: Arch[] = [];
   $: (async () => { items = await getArch(); })();
 </script>

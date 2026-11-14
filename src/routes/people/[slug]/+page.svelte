@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Person } from '$lib/content';
-  import { withBase } from '$lib/paths';
+  import type { Person } from '#lib/content';
+  import { withBase } from '#lib/paths';
   export let data: { person: Person | null };
 </script>
 

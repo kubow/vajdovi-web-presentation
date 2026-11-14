@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { getArt } from '$lib/content';
-  import type { Art } from '$lib/content';
-  import ArtCard from '$components/ArtCard.svelte';
+  import { getArt } from '#lib/content';
+  import type { Art } from '#lib/content';
+  import ArtCard from '#lib/components/ArtCard.svelte';
   let items: Art[] = [];
   $: (async () => { items = await getArt(); })();
 </script>

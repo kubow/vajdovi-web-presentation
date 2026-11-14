@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { getTexty } from '$lib/content';
-  import type { Text } from '$lib/content';
-  import TextCard from '$components/TextCard.svelte';
+  import { getTexty } from '#lib/content';
+  import type { Text } from '#lib/content';
+  import TextCard from '#lib/components/TextCard.svelte';
   let items: Text[] = [];
   $: (async () => { items = await getTexty(); })();
 </script>

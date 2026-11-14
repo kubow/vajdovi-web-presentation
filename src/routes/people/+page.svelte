@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { getPeople } from '$lib/content';
-  import type { Person } from '$lib/content';
-  import PersonCard from '$components/PersonCard.svelte';
+  import { getPeople } from '#lib/content';
+  import type { Person } from '#lib/content';
+  import PersonCard from '#lib/components/PersonCard.svelte';
   let people: Person[] = [];
   $: (async () => { people = await getPeople(); })();
   let q = '';

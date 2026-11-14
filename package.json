@@ -4,9 +4,12 @@
   "description": "deployed on vajdovi.cz",
   "main": "index.js",
   "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
   "scripts": {
     "dev": "vite dev",
-    "build": "svelte-kit sync && vite build",
+    "build": "svelte-kit sync --config vite.config.js && vite build",
     "build:docs": "cross-env OUTPUT_DIR=docs BASE_PATH=/vajdovi-web-presentation vite build && touch docs/.nojekyll",
     "build:normal": "cross-env OUTPUT_DIR=build BASE_PATH= vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,18 +29,16 @@
   },
   "homepage": "https://github.com/kubow/vajdovi-web-presentation#readme",
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.9",
-    "@sveltejs/kit": "^2.27.3",
-    "@sveltejs/vite-plugin-svelte": "^6.1.1",
-    "@tailwindcss/vite": "^4.1.11",
-    "autoprefixer": "^10.4.21",
-    "cross-env": "^10.0.0",
-    "mdsvex": "^0.12.6",
-    "postcss": "^8.5.6",
+    "@sveltejs/adapter-static": "^4.0.1",
+    "@sveltejs/kit": "^3.2.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "cross-env": "^10.1.0",
+    "mdsvex": "^0.12.8",
     "remark-gfm": "^4.0.1",
-    "svelte": "^5.38.0",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^5.9.2",
-    "vite": "^7.1.1"
+    "svelte": "^5.57.3",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.8"
   }
 }

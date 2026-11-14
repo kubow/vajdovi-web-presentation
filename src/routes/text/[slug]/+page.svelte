@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Text } from '$lib/content';
+  import type { Text } from '#lib/content';
   export let data: { text: Text | null };
 </script>
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { withBase } from '$lib/paths';
+  import { withBase } from '#lib/paths';
   export let title: string;
   export let image: string | undefined = undefined;
   export let year: string | number | undefined = undefined;

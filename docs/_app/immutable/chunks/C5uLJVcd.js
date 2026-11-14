@@ -1,0 +1,1 @@
+import{t as e}from"./CDlQKzVS.js";function t(t){return e(t)}export{t};

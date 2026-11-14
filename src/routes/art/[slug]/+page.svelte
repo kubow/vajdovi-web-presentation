@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Art } from '$lib/content';
-  import { withBase } from '$lib/paths';
+  import type { Art } from '#lib/content';
+  import { withBase } from '#lib/paths';
   export let data: { art: Art | null };
 </script>
 

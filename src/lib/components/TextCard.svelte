@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { withBase } from '$lib/paths';
+  import { withBase } from '#lib/paths';
   export let title: string;
   export let type: 'poezie' | 'proza' | undefined = undefined;
   export let slug: string;

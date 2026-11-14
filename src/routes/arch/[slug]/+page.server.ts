@@ -1,5 +1,5 @@
-import { getArchItem } from '$lib/content';
-import type { Arch } from '$lib/content';
+import { getArchItem } from '#lib/content';
+import type { Arch } from '#lib/content';
 
 export const entries = async () => {
   return [{ slug: 'example' }];

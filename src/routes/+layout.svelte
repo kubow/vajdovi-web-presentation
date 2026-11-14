@@ -1,6 +1,6 @@
 <script>
-  import "$styles/app.css"
-  import Nav from '$components/Nav.svelte';
+  import "#lib/styles/app.css"
+  import Nav from '#lib/components/Nav.svelte';
 </script>
 
 <div class="min-h-dvh bg-white">

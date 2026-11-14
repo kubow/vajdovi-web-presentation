@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Arch } from '$lib/content';
+  import type { Arch } from '#lib/content';
   export let data: { arch: Arch | null };
 </script>
 

@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { getPeople, getArt } from '$lib/content';
-  import type { Person, Art } from '$lib/content';
-  import PersonCard from '$components/PersonCard.svelte';
-  import ArtCard from '$components/ArtCard.svelte';
-    import ArchCard from '$components/ArchCard.svelte';
+  import { getPeople, getArt } from '#lib/content';
+  import type { Person, Art } from '#lib/content';
+  import PersonCard from '#lib/components/PersonCard.svelte';
+  import ArtCard from '#lib/components/ArtCard.svelte';
+    import ArchCard from '#lib/components/ArchCard.svelte';
 
   let people: Person[] = [];
   let art: Art[] = [];
