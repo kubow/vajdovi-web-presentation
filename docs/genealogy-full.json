@@ -3,6 +3,7 @@
     {
       "id": "P0001",
       "name": "František",
+      "years": "1854–1916",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1854-09-15",
@@ -13,46 +14,60 @@
       "mother": "P0151",
       "facts": [
         {
+          "type": "residence",
+          "value": "born at Rudslavice",
+          "date": "1854",
+          "source_id": "S0006",
+          "evidence": "Frantisek Vajda birth 1854-09-15 (Rudslavice)"
+        },
+        {
           "type": "occupation",
-          "value": "domkář (cottager)",
+          "value": "worked as domkář (cottager)",
           "date": "1884",
-          "source_id": "S0026"
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         },
         {
           "type": "residence",
-          "value": "Rudslavice",
+          "value": "lived at Rudslavice",
           "date": "1884",
-          "source_id": "S0026"
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         },
         {
           "type": "occupation",
-          "value": "farmer (rolník)",
+          "value": "worked as farmer (rolník)",
           "date": "1905",
-          "source_id": "S0027"
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
         },
         {
           "type": "residence",
-          "value": "Velíková no. 1",
+          "value": "lived at Velíková no. 1",
           "date": "1905",
-          "source_id": "S0027"
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
         },
         {
           "type": "occupation",
-          "value": "married farmer (rolník)",
+          "value": "worked as married farmer (rolník)",
           "date": "1916",
-          "source_id": "S0008"
+          "source_id": "S0008",
+          "evidence": "Frantisek Vajda death 1916"
         },
         {
           "type": "residence",
-          "value": "Velíková no. 47",
+          "value": "lived at Velíková no. 47",
           "date": "1916",
-          "source_id": "S0008"
+          "source_id": "S0008",
+          "evidence": "Frantisek Vajda death 1916"
         }
       ]
     },
     {
       "id": "P0002",
       "name": "Joseph",
+      "years": "c. 1803–?",
       "birthSurname": "Waida",
       "marriedSurname": "",
       "birthDate": "c. 1803 (age 35 at marriage 31 Jul 1838)",
@@ -63,48 +78,63 @@
       "mother": "P0153",
       "facts": [
         {
-          "type": "occupation",
-          "value": "Bauer (farmer)",
-          "date": "1838",
-          "source_id": "S0029"
-        },
-        {
-          "type": "residence",
-          "value": "house no. 18",
-          "date": "1838",
-          "place": "Rudslavice/Ludslavice",
-          "source_id": "S0029"
-        },
-        {
-          "type": "occupation",
-          "value": "farmer (rolník)",
-          "date": "1854",
-          "source_id": "S0006"
-        },
-        {
-          "type": "occupation",
-          "value": "půlláník (half-lan farmer)",
-          "date": "1884",
-          "source_id": "S0026"
-        },
-        {
-          "type": "occupation",
-          "value": "půlláník",
-          "date": "1916",
-          "source_id": "S0008"
-        },
-        {
           "type": "property",
           "value": "successor owner of half-lán farm no. 18 after Franz (entry not yet fully read; date probably c. 1828)",
           "date": "c. 1828",
           "place": "Ludslavice",
-          "source_id": "S0044"
+          "source_id": "S0044",
+          "evidence": "Ludslavice land book (pozemková kniha) houses 1–55, 1798–1837, Holešov estate (MZA, Pozemkové knihy, kniha 13405), house no. 18 at fol. 94–98 (viewer scans 97–98): owners Athanasius Wagda (10 Sep 1806), Franz Wagda (10 Jun 1808, 3200 fl), then Josef Waida"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)",
+          "date": "1838",
+          "source_id": "S0029",
+          "evidence": "Joseph Waida + Veronica Dworžel marriage 31 Jul 1838, Kurovice (book 8045, fol. 53, scan 31)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "date": "1838",
+          "place": "Rudslavice/Ludslavice",
+          "source_id": "S0029",
+          "evidence": "Joseph Waida + Veronica Dworžel marriage 31 Jul 1838, Kurovice (book 8045, fol. 53, scan 31)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as farmer (rolník)",
+          "date": "1854",
+          "source_id": "S0006",
+          "evidence": "Frantisek Vajda birth 1854-09-15 (Rudslavice)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as půlláník (half-lan farmer)",
+          "date": "1884",
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1884",
+          "date": "1884",
+          "place": "Rudslavice",
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as půlláník",
+          "date": "1916",
+          "source_id": "S0008",
+          "evidence": "Frantisek Vajda death 1916"
         }
       ]
     },
     {
       "id": "P0009",
       "name": "Josef",
+      "years": "1933–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1933-05-22",
@@ -118,6 +148,7 @@
     {
       "id": "P0010",
       "name": "Franta",
+      "years": "1940–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1940-06-16",
@@ -131,6 +162,7 @@
     {
       "id": "P0011",
       "name": "Mirka",
+      "years": "1943–?",
       "birthSurname": "Vajdová",
       "marriedSurname": "",
       "birthDate": "1943-05-31",
@@ -144,6 +176,7 @@
     {
       "id": "P0012",
       "name": "Lida",
+      "years": "1946–?",
       "birthSurname": "Vajdová",
       "marriedSurname": "",
       "birthDate": "1946-07-16",
@@ -157,19 +190,43 @@
     {
       "id": "P0013",
       "name": "Jaroslav",
+      "years": "1907–1977",
       "birthSurname": "Novosad",
       "marriedSurname": "",
-      "birthDate": "1907-06-30",
-      "birthPlace": "Zlín, Česko",
+      "birthDate": "1907-06-29",
+      "birthPlace": "Mladcová (okres Holešov)",
       "deathDate": "1977-08-30",
       "deathPlace": "Zlín, Česko",
-      "father": "",
-      "mother": "",
-      "facts": []
+      "father": "P0178",
+      "mother": "P0179",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Mladcová",
+          "date": "1907",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as tovární dělník (factory worker)",
+          "date": "1931",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Louky n. Dřevnicí",
+          "date": "1931",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        }
+      ]
     },
     {
       "id": "P0014",
       "name": "Radomír",
+      "years": "1959–2024",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1959-06-29",
@@ -183,6 +240,7 @@
     {
       "id": "P0015",
       "name": "Jitka",
+      "years": "1961–?",
       "birthSurname": "Turečková",
       "marriedSurname": "Vajdová",
       "birthDate": "1961-08-12",
@@ -196,6 +254,7 @@
     {
       "id": "P0016",
       "name": "Jakub",
+      "years": "1984–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1984-06-19",
@@ -209,6 +268,7 @@
     {
       "id": "P0017",
       "name": "Alena",
+      "years": "1935–?",
       "birthSurname": "Bartoňová",
       "marriedSurname": "Turečková",
       "birthDate": "1935",
@@ -222,6 +282,7 @@
     {
       "id": "P0018",
       "name": "Leopold",
+      "years": "1932–2012",
       "birthSurname": "Tureček",
       "marriedSurname": "",
       "birthDate": "1932",
@@ -235,6 +296,7 @@
     {
       "id": "P0019",
       "name": "Ludmila",
+      "years": "1938–?",
       "birthSurname": "Novosadová",
       "marriedSurname": "Vajdová",
       "birthDate": "1938",
@@ -248,6 +310,7 @@
     {
       "id": "P0020",
       "name": "Stanislav",
+      "years": "1935–2014",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1935-12-04",
@@ -261,19 +324,29 @@
     {
       "id": "P0021",
       "name": "Marie",
+      "years": "1912–1995",
       "birthSurname": "Svobodová",
       "marriedSurname": "Novosadová",
       "birthDate": "1912-09-02",
-      "birthPlace": "Zlín, Česko",
+      "birthPlace": "Louky n. Dřevnicí",
       "deathDate": "1995-11-16",
       "deathPlace": "",
-      "father": "",
-      "mother": "",
-      "facts": []
+      "father": "P0168",
+      "mother": "P0169",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Louky n. Dřevnicí",
+          "date": "1931",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        }
+      ]
     },
     {
       "id": "P0022",
       "name": "Berta",
+      "years": "1911–?",
       "birthSurname": "Slováčková",
       "marriedSurname": "Vajdová",
       "birthDate": "1911-04-21",
@@ -285,15 +358,17 @@
       "facts": [
         {
           "type": "residence",
-          "value": "Veselá (with parents)",
+          "value": "lived at Veselá (with parents)",
           "date": "1933",
-          "source_id": "S0009"
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
         }
       ]
     },
     {
       "id": "P0024",
       "name": "Alžběta",
+      "years": "",
       "birthSurname": "Janáková",
       "marriedSurname": "Bartoňová",
       "birthDate": "",
@@ -307,6 +382,7 @@
     {
       "id": "P0030",
       "name": "František",
+      "years": "",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "",
@@ -320,6 +396,7 @@
     {
       "id": "P0031",
       "name": "Anna",
+      "years": "",
       "birthSurname": "Lišková",
       "marriedSurname": "",
       "birthDate": "",
@@ -333,6 +410,7 @@
     {
       "id": "P0032",
       "name": "František",
+      "years": "1866–1940",
       "birthSurname": "Divílek",
       "marriedSurname": "",
       "birthDate": "1866-01-15",
@@ -346,6 +424,7 @@
     {
       "id": "P0033",
       "name": "Marie",
+      "years": "1866–?",
       "birthSurname": "Sáblová",
       "marriedSurname": "",
       "birthDate": "1866",
@@ -359,6 +438,7 @@
     {
       "id": "P0034",
       "name": "Antonín",
+      "years": "1838–?",
       "birthSurname": "Divílek",
       "marriedSurname": "",
       "birthDate": "1838",
@@ -372,6 +452,7 @@
     {
       "id": "P0035",
       "name": "Františka",
+      "years": "1837–?",
       "birthSurname": "Šudová",
       "marriedSurname": "Divílková",
       "birthDate": "1837",
@@ -385,6 +466,7 @@
     {
       "id": "P0036",
       "name": "František",
+      "years": "1904–1996",
       "birthSurname": "Divílek",
       "marriedSurname": "",
       "birthDate": "1904-08-16",
@@ -398,6 +480,7 @@
     {
       "id": "P0037",
       "name": "František",
+      "years": "",
       "birthSurname": "Sabl",
       "marriedSurname": "",
       "birthDate": "",
@@ -411,6 +494,7 @@
     {
       "id": "P0038",
       "name": "Marie",
+      "years": "",
       "birthSurname": "Holíková",
       "marriedSurname": "",
       "birthDate": "",
@@ -424,6 +508,7 @@
     {
       "id": "P0039",
       "name": "Franc",
+      "years": "",
       "birthSurname": "Divílek",
       "marriedSurname": "",
       "birthDate": "",
@@ -437,6 +522,7 @@
     {
       "id": "P0040",
       "name": "Alžběta",
+      "years": "",
       "birthSurname": "Mokrošová",
       "marriedSurname": "",
       "birthDate": "",
@@ -450,6 +536,7 @@
     {
       "id": "P0041",
       "name": "Matouš",
+      "years": "",
       "birthSurname": "Šuda",
       "marriedSurname": "",
       "birthDate": "",
@@ -463,6 +550,7 @@
     {
       "id": "P0042",
       "name": "Mariana",
+      "years": "",
       "birthSurname": "Svízelová",
       "marriedSurname": "Šudová",
       "birthDate": "",
@@ -476,6 +564,7 @@
     {
       "id": "P0043",
       "name": "Marie",
+      "years": "1907–2000",
       "birthSurname": "Kučerová",
       "marriedSurname": "",
       "birthDate": "1907-08-01",
@@ -489,6 +578,7 @@
     {
       "id": "P0044",
       "name": "Jan",
+      "years": "1868–?",
       "birthSurname": "Sabl",
       "marriedSurname": "",
       "birthDate": "1868",
@@ -502,6 +592,7 @@
     {
       "id": "P0045",
       "name": "Jan",
+      "years": "",
       "birthSurname": "Holík",
       "marriedSurname": "",
       "birthDate": "",
@@ -515,6 +606,7 @@
     {
       "id": "P0046",
       "name": "Rudolf",
+      "years": "",
       "birthSurname": "Kučera",
       "marriedSurname": "",
       "birthDate": "",
@@ -528,6 +620,7 @@
     {
       "id": "P0047",
       "name": "Marie",
+      "years": "1879–?",
       "birthSurname": "Dlabajová",
       "marriedSurname": "",
       "birthDate": "1879-01-19",
@@ -541,6 +634,7 @@
     {
       "id": "P0048",
       "name": "Františka",
+      "years": "1873–?",
       "birthSurname": "Bobalová",
       "marriedSurname": "",
       "birthDate": "1873",
@@ -554,6 +648,7 @@
     {
       "id": "P0049",
       "name": "František",
+      "years": "1834–?",
       "birthSurname": "Dlabaja",
       "marriedSurname": "",
       "birthDate": "1834",
@@ -567,6 +662,7 @@
     {
       "id": "P0050",
       "name": "Aloisie",
+      "years": "1857–?",
       "birthSurname": "Slačálková",
       "marriedSurname": "",
       "birthDate": "1857",
@@ -580,6 +676,7 @@
     {
       "id": "P0051",
       "name": "Jan",
+      "years": "",
       "birthSurname": "Bobal",
       "marriedSurname": "",
       "birthDate": "",
@@ -593,6 +690,7 @@
     {
       "id": "P0053",
       "name": "František",
+      "years": "",
       "birthSurname": "Nedbálek",
       "marriedSurname": "",
       "birthDate": "",
@@ -606,6 +704,7 @@
     {
       "id": "P0054",
       "name": "Stanislav",
+      "years": "1904–1905",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1904-10-06",
@@ -614,11 +713,27 @@
       "deathPlace": "Veliková",
       "father": "P0001",
       "mother": "P0156",
-      "facts": []
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Velíková no. 1",
+          "date": "1904–1905",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as child (died aged 10 months)",
+          "date": "1905",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        }
+      ]
     },
     {
       "id": "P0062",
       "name": "Stanislav",
+      "years": "1906–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1906-07-02",
@@ -629,22 +744,40 @@
       "mother": "P0156",
       "facts": [
         {
+          "type": "residence",
+          "value": "born at Velíková",
+          "date": "1906",
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
+        },
+        {
           "type": "occupation",
-          "value": "kovářský pomocník (blacksmith's assistant)",
+          "value": "worked as kovářský pomocník (blacksmith's assistant)",
           "date": "1933",
-          "source_id": "S0009"
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
         },
         {
           "type": "residence",
-          "value": "Velíková",
+          "value": "lived at Velíková",
           "date": "1933",
-          "source_id": "S0009"
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1933",
+          "date": "1933",
+          "place": "Velíková",
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
         }
       ]
     },
     {
       "id": "P0068",
       "name": "Josef",
+      "years": "",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "",
@@ -656,21 +789,24 @@
       "facts": [
         {
           "type": "occupation",
-          "value": "rolník (farmer)",
+          "value": "worked as rolník (farmer)",
           "date": "1933",
-          "source_id": "S0009"
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
         },
         {
           "type": "residence",
-          "value": "Veselá",
+          "value": "lived at Veselá",
           "date": "1933",
-          "source_id": "S0009"
+          "source_id": "S0009",
+          "evidence": "Stanislav Vajda marriage 1933 (Slusovice)"
         }
       ]
     },
     {
       "id": "P0069",
       "name": "Berta",
+      "years": "",
       "birthSurname": "Divílková",
       "marriedSurname": "Slováčková",
       "birthDate": "",
@@ -684,6 +820,7 @@
     {
       "id": "P0081",
       "name": "Anna",
+      "years": "",
       "birthSurname": "Nedbálková",
       "marriedSurname": "",
       "birthDate": "",
@@ -697,6 +834,7 @@
     {
       "id": "P0089",
       "name": "Ondřej",
+      "years": "1986–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "1986-10-03",
@@ -710,6 +848,7 @@
     {
       "id": "P0097",
       "name": "Pavel",
+      "years": "1815–1866",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1815-01-24",
@@ -723,6 +862,7 @@
     {
       "id": "P0098",
       "name": "Veronika",
+      "years": "1814–1888",
       "birthSurname": "Skotková",
       "marriedSurname": "Slováčková",
       "birthDate": "1814-02-14",
@@ -736,6 +876,7 @@
     {
       "id": "P0099",
       "name": "Ignác",
+      "years": "1879–1949",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1879-12-05",
@@ -749,6 +890,7 @@
     {
       "id": "P0100",
       "name": "Anežka",
+      "years": "1876–?",
       "birthSurname": "Slováčková",
       "marriedSurname": "",
       "birthDate": "1876-10-04",
@@ -762,6 +904,7 @@
     {
       "id": "P0101",
       "name": "Jaroslav",
+      "years": "1882–1953",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1882-05-26",
@@ -775,6 +918,7 @@
     {
       "id": "P0102",
       "name": "Anna",
+      "years": "1850–?",
       "birthSurname": "",
       "marriedSurname": "Slováčková",
       "birthDate": "1850-06-20",
@@ -788,6 +932,7 @@
     {
       "id": "P0103",
       "name": "Ludmila",
+      "years": "1881–1954",
       "birthSurname": "Hradilová",
       "marriedSurname": "",
       "birthDate": "1881-06-22",
@@ -801,6 +946,7 @@
     {
       "id": "P0104",
       "name": "Stanislav",
+      "years": "1909–?",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1909-05-31",
@@ -814,6 +960,7 @@
     {
       "id": "P0105",
       "name": "Antonín",
+      "years": "1910–1965",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1910-07-18",
@@ -827,6 +974,7 @@
     {
       "id": "P0106",
       "name": "Ignác",
+      "years": "1916–1982",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "1916-01-12",
@@ -840,6 +988,7 @@
     {
       "id": "P0108",
       "name": "Jan",
+      "years": "1853–1923",
       "birthSurname": "Hradil",
       "marriedSurname": "",
       "birthDate": "1853-06-12",
@@ -853,6 +1002,7 @@
     {
       "id": "P0109",
       "name": "Veronika",
+      "years": "1848–1915",
       "birthSurname": "Frgalová",
       "marriedSurname": "",
       "birthDate": "1848-05-02",
@@ -866,6 +1016,7 @@
     {
       "id": "P0110",
       "name": "Jan",
+      "years": "1823–?",
       "birthSurname": "Hradil",
       "marriedSurname": "",
       "birthDate": "1823",
@@ -879,6 +1030,7 @@
     {
       "id": "P0111",
       "name": "Veronika",
+      "years": "1820–?",
       "birthSurname": "Michálková",
       "marriedSurname": "",
       "birthDate": "1820",
@@ -892,6 +1044,7 @@
     {
       "id": "P0112",
       "name": "Ignác",
+      "years": "1878–1914",
       "birthSurname": "Hradil",
       "marriedSurname": "",
       "birthDate": "1878-07-07",
@@ -905,6 +1058,7 @@
     {
       "id": "P0118",
       "name": "Jan",
+      "years": "1874–?",
       "birthSurname": "Bartoň",
       "marriedSurname": "",
       "birthDate": "1874-01-03",
@@ -918,10 +1072,11 @@
     {
       "id": "P0119",
       "name": "Maria",
+      "years": "1872–?",
       "birthSurname": "Bártonová",
       "marriedSurname": "Bartoňová",
-      "birthDate": "",
-      "birthPlace": "",
+      "birthDate": "1872-08-05 (probable, S0061)",
+      "birthPlace": "Rabensburg no. 208 (probable)",
       "deathDate": "",
       "deathPlace": "",
       "father": "P0122",
@@ -931,6 +1086,7 @@
     {
       "id": "P0120",
       "name": "František",
+      "years": "",
       "birthSurname": "Bartoň",
       "marriedSurname": "",
       "birthDate": "",
@@ -944,6 +1100,7 @@
     {
       "id": "P0121",
       "name": "Rozina",
+      "years": "",
       "birthSurname": "Šerá",
       "marriedSurname": "Bartoňová",
       "birthDate": "",
@@ -957,6 +1114,7 @@
     {
       "id": "P0122",
       "name": "Josef",
+      "years": "",
       "birthSurname": "Bárton",
       "marriedSurname": "",
       "birthDate": "",
@@ -969,8 +1127,9 @@
     },
     {
       "id": "P0123",
-      "name": "Marie",
-      "birthSurname": "Anna",
+      "name": "Maria Anna",
+      "years": "",
+      "birthSurname": "Barton",
       "marriedSurname": "",
       "birthDate": "",
       "birthPlace": "",
@@ -978,11 +1137,27 @@
       "deathPlace": "",
       "father": "",
       "mother": "",
-      "facts": []
+      "facts": [
+        {
+          "type": "origin",
+          "value": "came from Seitendorf / Ženklava parish, Moravia (near Veřovice)",
+          "date": "1872",
+          "source_id": "S0061",
+          "evidence": "Maria Barton baptism 6 Aug 1872 (b. 5 Aug), Rabensburg no. 208, entry 39 (Taufbuch 01-07, fol. 522, Matricula scan 524)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Taglöhnerin (day labourer) in Rabensburg",
+          "date": "1872",
+          "source_id": "S0061",
+          "evidence": "Maria Barton baptism 6 Aug 1872 (b. 5 Aug), Rabensburg no. 208, entry 39 (Taufbuch 01-07, fol. 522, Matricula scan 524)"
+        }
+      ]
     },
     {
       "id": "P0124",
       "name": "Vincenc",
+      "years": "",
       "birthSurname": "Bartoň",
       "marriedSurname": "Bartoň",
       "birthDate": "",
@@ -996,6 +1171,7 @@
     {
       "id": "P0125",
       "name": "Unknown",
+      "years": "",
       "birthSurname": "Janáková",
       "marriedSurname": "",
       "birthDate": "",
@@ -1009,6 +1185,7 @@
     {
       "id": "P0146",
       "name": "Dagmara",
+      "years": "",
       "birthSurname": "Vajdová",
       "marriedSurname": "Cekotová",
       "birthDate": "",
@@ -1022,6 +1199,7 @@
     {
       "id": "P0149",
       "name": "Ludmila",
+      "years": "",
       "birthSurname": "Slováček",
       "marriedSurname": "",
       "birthDate": "",
@@ -1035,6 +1213,7 @@
     {
       "id": "P0150",
       "name": "Antonín",
+      "years": "",
       "birthSurname": "Cekota",
       "marriedSurname": "",
       "birthDate": "",
@@ -1048,6 +1227,7 @@
     {
       "id": "P0151",
       "name": "Veronika",
+      "years": "c. 1819–?",
       "birthSurname": "Dvořel",
       "marriedSurname": "Waida",
       "birthDate": "c. 1819 (age 19 at marriage 1838)",
@@ -1059,21 +1239,47 @@
       "facts": [
         {
           "type": "origin",
-          "value": "Kurovice",
+          "value": "came from Kurovice",
           "date": "1838",
-          "source_id": "S0029"
+          "source_id": "S0029",
+          "evidence": "Joseph Waida + Veronica Dworžel marriage 31 Jul 1838, Kurovice (book 8045, fol. 53, scan 31)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1854",
+          "date": "1854",
+          "place": "Rudslavice",
+          "source_id": "S0006",
+          "evidence": "Frantisek Vajda birth 1854-09-15 (Rudslavice)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Rudslavice no. 18 (wife of Josef)",
+          "date": "1854",
+          "place": "Ludslavice",
+          "source_id": "S0006",
+          "evidence": "Frantisek Vajda birth 1854-09-15 (Rudslavice)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as wife of farmer Josef Waida",
+          "date": "1854",
+          "source_id": "S0006",
+          "evidence": "Frantisek Vajda birth 1854-09-15 (Rudslavice)"
         },
         {
           "type": "origin",
-          "value": "Kurovice",
+          "value": "came from Kurovice",
           "date": "1884",
-          "source_id": "S0026"
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         }
       ]
     },
     {
       "id": "P0152",
       "name": "Franz",
+      "years": "c. 1764–1827",
       "birthSurname": "Waida",
       "marriedSurname": "",
       "birthDate": "c. 1764 (age 63 at death 1827)",
@@ -1085,78 +1291,89 @@
       "facts": [
         {
           "type": "residence",
-          "value": "house no. 17",
+          "value": "lived at house no. 17",
           "date": "1807",
           "place": "Ludslavice",
-          "source_id": "S0031"
-        },
-        {
-          "type": "residence",
-          "value": "house no. 18",
-          "date": "1809",
-          "place": "Ludslavice",
-          "source_id": "S0035"
-        },
-        {
-          "type": "residence",
-          "value": "house no. 18",
-          "date": "1814",
-          "place": "Ludslavice",
-          "source_id": "S0036"
-        },
-        {
-          "type": "residence",
-          "value": "house no. 18",
-          "date": "1816",
-          "place": "Ludslavice",
-          "source_id": "S0037"
-        },
-        {
-          "type": "residence",
-          "value": "house no. 18",
-          "date": "1827",
-          "place": "Ludslavice",
-          "source_id": "S0033"
+          "source_id": "S0031",
+          "evidence": "Veronika Wajda baptism 20 Jun 1807, Ludslavice no. 17 (book 8156, fol. 38, scan 21): parents Franz Wajda, Bauer, + Anna d. of Karl Dowržil"
         },
         {
           "type": "occupation",
-          "value": "Bauer (farmer)",
+          "value": "worked as Bauer (farmer)",
           "date": "1807",
-          "source_id": "S0031"
-        },
-        {
-          "type": "occupation",
-          "value": "Bauer (farmer)",
-          "date": "1809",
-          "source_id": "S0035"
-        },
-        {
-          "type": "occupation",
-          "value": "Bauer (farmer)",
-          "date": "1816",
-          "source_id": "S0037"
-        },
-        {
-          "type": "occupation",
-          "value": "Bauer (farmer)",
-          "date": "1827",
-          "source_id": "S0033"
+          "source_id": "S0031",
+          "evidence": "Veronika Wajda baptism 20 Jun 1807, Ludslavice no. 17 (book 8156, fol. 38, scan 21): parents Franz Wajda, Bauer, + Anna d. of Karl Dowržil"
         },
         {
           "type": "property",
           "value": "took over half-lán farm (halber Lahnersgrund) no. 18 in Rutzlawitz, price 3200 fl (hypotheca 1600 fl)",
           "date": "1808-06-10",
           "place": "Ludslavice",
-          "source_id": "S0044"
+          "source_id": "S0044",
+          "evidence": "Ludslavice land book (pozemková kniha) houses 1–55, 1798–1837, Holešov estate (MZA, Pozemkové knihy, kniha 13405), house no. 18 at fol. 94–98 (viewer scans 97–98): owners Athanasius Wagda (10 Sep 1806), Franz Wagda (10 Jun 1808, 3200 fl), then Josef Waida"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "date": "1809",
+          "place": "Ludslavice",
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)",
+          "date": "1809",
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "date": "1814",
+          "place": "Ludslavice",
+          "source_id": "S0036",
+          "evidence": "Lucia Wajda baptism 15 Jun(?) 1814, Ludslavice no. 18 (book 8156, fol. 51, scan 27): Franz Wajda, Bauer; Anna d. of Johann(?) Dworžil, von Wrbětitz"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "date": "1816",
+          "place": "Ludslavice",
+          "source_id": "S0037",
+          "evidence": "Lucia Wajda baptism 15 Mar 1816, Ludslavice no. 18 (book 8156, fol. 56, scan 30): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník von Wrbětitz"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)",
+          "date": "1816",
+          "source_id": "S0037",
+          "evidence": "Lucia Wajda baptism 15 Mar 1816, Ludslavice no. 18 (book 8156, fol. 56, scan 30): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník von Wrbětitz"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "date": "1827",
+          "place": "Ludslavice",
+          "source_id": "S0033",
+          "evidence": "Franz Waida death 5 Jun 1827, Ludslavice no. 18 (deaths book 8165, fol. 45, scan 23): Bauer, aged 63"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)",
+          "date": "1827",
+          "source_id": "S0033",
+          "evidence": "Franz Waida death 5 Jun 1827, Ludslavice no. 18 (deaths book 8165, fol. 45, scan 23): Bauer, aged 63"
         }
       ]
     },
     {
       "id": "P0153",
       "name": "Anna",
+      "years": "c. 1780–?",
       "birthSurname": "Dvořel",
       "marriedSurname": "Waida",
-      "birthDate": "",
+      "birthDate": "c. 1775–1785 (est.: children born 1803–1821)",
       "birthPlace": "Ludslavice",
       "deathDate": "",
       "deathPlace": "",
@@ -1164,47 +1381,67 @@
       "mother": "",
       "facts": [
         {
+          "type": "occupation",
+          "value": "worked as wife of farmer (Bauer) Franz Waida",
+          "date": "1807",
+          "source_id": "S0031",
+          "evidence": "Veronika Wajda baptism 20 Jun 1807, Ludslavice no. 17 (book 8156, fol. 38, scan 21): parents Franz Wajda, Bauer, + Anna d. of Karl Dowržil"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 17, then no. 18",
+          "date": "1807–1821",
+          "place": "Ludslavice",
+          "source_id": "S0031",
+          "evidence": "Veronika Wajda baptism 20 Jun 1807, Ludslavice no. 17 (book 8156, fol. 38, scan 21): parents Franz Wajda, Bauer, + Anna d. of Karl Dowržil"
+        },
+        {
           "type": "origin",
-          "value": "Wrbětitz = Vrbětice (probable)",
+          "value": "came from Wrbětitz = Vrbětice (probable)",
           "date": "1809",
-          "source_id": "S0035"
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
         }
       ]
     },
     {
       "id": "P0154",
       "name": "Johann",
+      "years": "c. 1788–1838",
       "birthSurname": "Dvořel",
       "marriedSurname": "",
-      "birthDate": "",
+      "birthDate": "c. 1780–1795 (est.: daughter b. c.1819)",
       "birthPlace": "",
-      "deathDate": "",
+      "deathDate": "before 1838-07-31 (bride parentless, S0029)",
       "deathPlace": "",
       "father": "",
       "mother": "",
       "facts": [
         {
           "type": "occupation",
-          "value": "Bauer (farmer)",
+          "value": "worked as Bauer (farmer)",
           "date": "1838",
-          "source_id": "S0029"
+          "source_id": "S0029",
+          "evidence": "Joseph Waida + Veronica Dworžel marriage 31 Jul 1838, Kurovice (book 8045, fol. 53, scan 31)"
         },
         {
           "type": "residence",
-          "value": "Kurovice",
+          "value": "lived at Kurovice",
           "date": "1838",
-          "source_id": "S0029"
+          "source_id": "S0029",
+          "evidence": "Joseph Waida + Veronica Dworžel marriage 31 Jul 1838, Kurovice (book 8045, fol. 53, scan 31)"
         }
       ]
     },
     {
       "id": "P0155",
       "name": "Veronika",
+      "years": "c. 1790–1838",
       "birthSurname": "Lochmann",
       "marriedSurname": "Dvořel",
-      "birthDate": "",
+      "birthDate": "c. 1780–1800 (est.: daughter b. c.1819)",
       "birthPlace": "Ludslavice",
-      "deathDate": "",
+      "deathDate": "before 1838-07-31 (bride parentless, S0029)",
       "deathPlace": "",
       "father": "",
       "mother": "",
@@ -1213,6 +1450,7 @@
     {
       "id": "P0156",
       "name": "Anna",
+      "years": "c. 1862–1952",
       "birthSurname": "Žeravík",
       "marriedSurname": "Vajdová",
       "birthDate": "1862 (est., age 22 in Nov 1884)",
@@ -1224,18 +1462,49 @@
       "facts": [
         {
           "type": "origin",
-          "value": "Jankovice",
+          "value": "came from Jankovice",
           "date": "1884",
-          "source_id": "S0026"
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1905",
+          "date": "1905",
+          "place": "Velíková",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Velíková no. 1",
+          "date": "1905",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as wife of farmer (rolník) František Vajda",
+          "date": "1905",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Velíková (death)",
+          "date": "1952",
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         }
       ]
     },
     {
       "id": "P0157",
       "name": "Antonín",
+      "years": "c. 1836–?",
       "birthSurname": "Žeravík",
       "marriedSurname": "",
-      "birthDate": "",
+      "birthDate": "c. 1830–1842 (est.: daughter b. c.1862)",
       "birthPlace": "",
       "deathDate": "",
       "deathPlace": "",
@@ -1243,25 +1512,36 @@
       "mother": "",
       "facts": [
         {
-          "type": "occupation",
-          "value": "hostinský (innkeeper)",
-          "date": "1905",
-          "source_id": "S0027"
+          "type": "residence",
+          "value": "lived at Jankovice",
+          "date": "1884",
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         },
         {
-          "type": "residence",
-          "value": "Jankovice",
-          "date": "1884",
-          "source_id": "S0026"
+          "type": "occupation",
+          "value": "worked as hostinský (innkeeper)",
+          "date": "1905",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1905",
+          "date": "1905",
+          "place": "Jankovice",
+          "source_id": "S0027",
+          "evidence": "Stanislav Vajda death 4 Sep 1905, Velíková (Lukov deaths book 4364, p. 22, scan 71)"
         }
       ]
     },
     {
       "id": "P0158",
       "name": "Marianna",
+      "years": "c. 1837–?",
       "birthSurname": "Pavlíček",
       "marriedSurname": "Žeravík",
-      "birthDate": "",
+      "birthDate": "c. 1830–1844 (est.: daughter b. c.1862)",
       "birthPlace": "Kyselovice",
       "deathDate": "",
       "deathPlace": "",
@@ -1270,15 +1550,17 @@
       "facts": [
         {
           "type": "origin",
-          "value": "Kyselovice",
+          "value": "came from Kyselovice",
           "date": "1884",
-          "source_id": "S0026"
+          "source_id": "S0026",
+          "evidence": "František Vaida + Anna Žeravík marriage 11 Nov 1884, Jankovice (Holešov parish book 7608, fol. 25, scan 26)"
         }
       ]
     },
     {
       "id": "P0159",
       "name": "Veronika",
+      "years": "1807–?",
       "birthSurname": "Waida",
       "marriedSurname": "",
       "birthDate": "1807-06-20",
@@ -1287,12 +1569,123 @@
       "deathPlace": "",
       "father": "P0152",
       "mother": "P0153",
-      "facts": []
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 17",
+          "date": "1807",
+          "source_id": "S0031",
+          "evidence": "Veronika Wajda baptism 20 Jun 1807, Ludslavice no. 17 (book 8156, fol. 38, scan 21): parents Franz Wajda, Bauer, + Anna d. of Karl Dowržil"
+        }
+      ]
     },
     {
       "id": "P0160",
       "name": "Karl",
+      "years": "c. 1753–?",
       "birthSurname": "Dvořel",
+      "marriedSurname": "",
+      "birthDate": "c. 1740–1765 (est.: granddaughter b. 1807)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "worked as podsedník (smallholder)",
+          "date": "1809",
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Wrbětitz = Vrbětice (Wirbietitz), obec Vlachovice, okres Zlín — identification probable",
+          "date": "1809",
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as podsedník (smallholder)",
+          "date": "1816",
+          "source_id": "S0037",
+          "evidence": "Lucia Wajda baptism 15 Mar 1816, Ludslavice no. 18 (book 8156, fol. 56, scan 30): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník von Wrbětitz"
+        }
+      ]
+    },
+    {
+      "id": "P0161",
+      "name": "Josefa",
+      "years": "1809–1814",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1809-05-20",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "1814-06-05",
+      "deathPlace": "Ludslavice",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18",
+          "date": "1809",
+          "source_id": "S0035",
+          "evidence": "Josefa Wajda baptism 20 May 1809, Ludslavice no. 18 (book 8156, fol. 41, scan 22): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník in Wrbětitz"
+        }
+      ]
+    },
+    {
+      "id": "P0162",
+      "name": "Lucia",
+      "years": "1814–1814",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1814-06-15",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "1814-08-18",
+      "deathPlace": "Ludslavice",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18",
+          "date": "1814",
+          "source_id": "S0036",
+          "evidence": "Lucia Wajda baptism 15 Jun(?) 1814, Ludslavice no. 18 (book 8156, fol. 51, scan 27): Franz Wajda, Bauer; Anna d. of Johann(?) Dworžil, von Wrbětitz"
+        }
+      ]
+    },
+    {
+      "id": "P0163",
+      "name": "Lucia",
+      "years": "1816–?",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1816-03-15",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18",
+          "date": "1816",
+          "source_id": "S0037",
+          "evidence": "Lucia Wajda baptism 15 Mar 1816, Ludslavice no. 18 (book 8156, fol. 56, scan 30): Franz Wajda, Bauer; Anna d. of Karl Dowržil, podsedník von Wrbětitz"
+        }
+      ]
+    },
+    {
+      "id": "P0164",
+      "name": "Athanasius",
+      "years": "",
+      "birthSurname": "Waida",
       "marriedSurname": "",
       "birthDate": "",
       "birthPlace": "",
@@ -1302,80 +1695,25 @@
       "mother": "",
       "facts": [
         {
-          "type": "occupation",
-          "value": "podsedník (smallholder)",
-          "date": "1809",
-          "source_id": "S0035"
-        },
-        {
-          "type": "occupation",
-          "value": "podsedník (smallholder)",
-          "date": "1816",
-          "source_id": "S0037"
-        },
-        {
           "type": "residence",
-          "value": "Wrbětitz = Vrbětice (Wirbietitz), obec Vlachovice, okres Zlín — identification probable",
-          "date": "1809",
-          "source_id": "S0035"
+          "value": "lived at Ludslavice no. 18 (owner 1806–1808)",
+          "date": "1806",
+          "source_id": "S0044",
+          "evidence": "Ludslavice land book (pozemková kniha) houses 1–55, 1798–1837, Holešov estate (MZA, Pozemkové knihy, kniha 13405), house no. 18 at fol. 94–98 (viewer scans 97–98): owners Athanasius Wagda (10 Sep 1806), Franz Wagda (10 Jun 1808, 3200 fl), then Josef Waida"
+        },
+        {
+          "type": "property",
+          "value": "owner of half-lán farm no. 18 (bought for 3200 fl)",
+          "date": "1806",
+          "source_id": "S0044",
+          "evidence": "Ludslavice land book (pozemková kniha) houses 1–55, 1798–1837, Holešov estate (MZA, Pozemkové knihy, kniha 13405), house no. 18 at fol. 94–98 (viewer scans 97–98): owners Athanasius Wagda (10 Sep 1806), Franz Wagda (10 Jun 1808, 3200 fl), then Josef Waida"
         }
       ]
     },
     {
-      "id": "P0161",
-      "name": "Josefa",
-      "birthSurname": "Waida",
-      "marriedSurname": "",
-      "birthDate": "1809-05-20",
-      "birthPlace": "Ludslavice no. 18",
-      "deathDate": "1814-06-05",
-      "deathPlace": "Ludslavice",
-      "father": "P0152",
-      "mother": "P0153",
-      "facts": []
-    },
-    {
-      "id": "P0162",
-      "name": "Lucia",
-      "birthSurname": "Waida",
-      "marriedSurname": "",
-      "birthDate": "1814-06-15",
-      "birthPlace": "Ludslavice no. 18",
-      "deathDate": "1814-08-18",
-      "deathPlace": "Ludslavice",
-      "father": "P0152",
-      "mother": "P0153",
-      "facts": []
-    },
-    {
-      "id": "P0163",
-      "name": "Lucia",
-      "birthSurname": "Waida",
-      "marriedSurname": "",
-      "birthDate": "1816-03-15",
-      "birthPlace": "Ludslavice no. 18",
-      "deathDate": "",
-      "deathPlace": "",
-      "father": "P0152",
-      "mother": "P0153",
-      "facts": []
-    },
-    {
-      "id": "P0164",
-      "name": "Athanasius",
-      "birthSurname": "Waida",
-      "marriedSurname": "",
-      "birthDate": "",
-      "birthPlace": "",
-      "deathDate": "",
-      "deathPlace": "",
-      "father": "",
-      "mother": "",
-      "facts": []
-    },
-    {
       "id": "P0165",
       "name": "Barbara",
+      "years": "1821–1821",
       "birthSurname": "Waida",
       "marriedSurname": "",
       "birthDate": "1821-11-24 (est., 16 days at death)",
@@ -1389,6 +1727,7 @@
     {
       "id": "P0088",
       "name": "Michaela",
+      "years": "1982–?",
       "birthSurname": "Lovecká",
       "marriedSurname": "Vajdová",
       "birthDate": "1982-03-07",
@@ -1402,6 +1741,7 @@
     {
       "id": "P0166",
       "name": "Viola",
+      "years": "2018–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "2018-01-21",
@@ -1409,12 +1749,13 @@
       "deathDate": "",
       "deathPlace": "",
       "father": "P0016",
-      "mother": "P0088",
+      "mother": "",
       "facts": []
     },
     {
       "id": "P0167",
       "name": "Viktor",
+      "years": "2020–?",
       "birthSurname": "Vajda",
       "marriedSurname": "",
       "birthDate": "2020-07-30",
@@ -1422,8 +1763,375 @@
       "deathDate": "",
       "deathPlace": "",
       "father": "P0016",
-      "mother": "P0088",
+      "mother": "",
       "facts": []
+    },
+    {
+      "id": "P0178",
+      "name": "Josef",
+      "years": "1858–1931",
+      "birthSurname": "Novosad",
+      "marriedSurname": "",
+      "birthDate": "1858-08-27",
+      "birthPlace": "Mladcová no. 35",
+      "deathDate": "before 1931-09-12 († per S0018)",
+      "deathPlace": "",
+      "father": "P0170",
+      "mother": "P0171",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at house no. 35",
+          "date": "1858",
+          "place": "Mladcová",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as rolník; reservist of 11th artillery battery",
+          "date": "1883",
+          "place": "Mladcová",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as kolář (wheelwright)",
+          "date": "before 1931",
+          "place": "Mladcová",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        }
+      ]
+    },
+    {
+      "id": "P0179",
+      "name": "Františka",
+      "years": "c. 1865–1954",
+      "birthSurname": "Pastyříková",
+      "marriedSurname": "Novosadová",
+      "birthDate": "c. 1865 (age 18 in Sep 1883)",
+      "birthPlace": "Mladcová",
+      "deathDate": "1954-06-14 (margin note, to verify)",
+      "deathPlace": "(place illegible in margin note, S0054)",
+      "father": "P0172",
+      "mother": "P0173",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Mladcová",
+          "date": "1883",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as bride aged 18, minor",
+          "date": "1883",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        }
+      ]
+    },
+    {
+      "id": "P0168",
+      "name": "Josef",
+      "years": "c. 1880–1931",
+      "birthSurname": "Svoboda",
+      "marriedSurname": "",
+      "birthDate": "c. 1870–1890 (est.: daughter b. 1912)",
+      "birthPlace": "",
+      "deathDate": "before 1931-09-12 († per S0018)",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "worked as rolník (farmer)",
+          "date": "before 1931",
+          "place": "Louky n. Dřevnicí",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Louky n. Dřevnicí",
+          "date": "before 1931",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        }
+      ]
+    },
+    {
+      "id": "P0169",
+      "name": "Františka",
+      "years": "c. 1884–?",
+      "birthSurname": "Zelová",
+      "marriedSurname": "Svobodová",
+      "birthDate": "c. 1875–1892 (est.: daughter b. 1912)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Louky n. Dřevnicí (born there?)",
+          "date": "1931",
+          "source_id": "S0018",
+          "evidence": "Jaroslav Novosad + Marie Svobodová marriage 12 Sep 1931, Malenovice parish (Louky n. Dřevnicí), book 4140, scan 98, no. 10"
+        }
+      ]
+    },
+    {
+      "id": "P0170",
+      "name": "Tomáš",
+      "years": "c. 1820–1883",
+      "birthSurname": "Novosad",
+      "marriedSurname": "",
+      "birthDate": "c. 1820 (age 28 in Feb 1848)",
+      "birthPlace": "",
+      "deathDate": "before 1883-09-25 († per S0054)",
+      "deathPlace": "",
+      "father": "P0174",
+      "mother": "P0175",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Viertler, house no. 35",
+          "date": "1848",
+          "place": "Mladcová",
+          "source_id": "S0059",
+          "evidence": "Thomas Nowosad + Veronika Šmigura marriage 9 Feb 1848, Zlín parish (marriages book 4184, p. 191, scan 98)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 35 (Viertler)",
+          "date": "1858",
+          "place": "Mladcová",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as čtvrtník (quarter-lán farmer)",
+          "date": "before 1883",
+          "place": "Mladcová",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        }
+      ]
+    },
+    {
+      "id": "P0171",
+      "name": "Veronika",
+      "years": "c. 1828–1883",
+      "birthSurname": "Šmigurová (Schmiguna?)",
+      "marriedSurname": "Novosadová",
+      "birthDate": "c. 1828 (age 20 in Feb 1848)",
+      "birthPlace": "Zlín (paseky)",
+      "deathDate": "before 1883-09-25 († per S0054)",
+      "deathPlace": "",
+      "father": "P0176",
+      "mother": "P0177",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Mladcová no. 35",
+          "date": "1858",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as wife of Viertler Tomáš Novosad",
+          "date": "1858",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        },
+        {
+          "type": "origin",
+          "value": "came from Zlín paseky",
+          "date": "1883",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        }
+      ]
+    },
+    {
+      "id": "P0172",
+      "name": "František",
+      "years": "c. 1838–?",
+      "birthSurname": "Pastyřík",
+      "marriedSurname": "",
+      "birthDate": "c. 1830–1845 (est.: daughter b. c.1865)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "worked as domkář (cottager)",
+          "date": "1883",
+          "place": "Mladcová",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1883",
+          "date": "1883",
+          "place": "Mladcová",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Mladcová",
+          "date": "1883",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        }
+      ]
+    },
+    {
+      "id": "P0173",
+      "name": "Terezie",
+      "years": "c. 1838–?",
+      "birthSurname": "Dohnalková",
+      "marriedSurname": "Pastyříková",
+      "birthDate": "c. 1830–1845 (est.: daughter b. c.1865)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "came from Klečůvka",
+          "date": "1883",
+          "source_id": "S0054",
+          "evidence": "Josef Novosad + Františka Pastyříková marriage 25 Sep 1883, Mladcová (Zlín parish, marriages book 4196, p. 86, scan 46)"
+        }
+      ]
+    },
+    {
+      "id": "P0174",
+      "name": "Josef",
+      "years": "c. 1790–1848",
+      "birthSurname": "Novosad",
+      "marriedSurname": "",
+      "birthDate": "c. 1780–1800 (est.: son b. c.1820)",
+      "birthPlace": "",
+      "deathDate": "before 1848-02-09 († per S0059)",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Mladcová",
+          "date": "before 1848",
+          "source_id": "S0059",
+          "evidence": "Thomas Nowosad + Veronika Šmigura marriage 9 Feb 1848, Zlín parish (marriages book 4184, p. 191, scan 98)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Viertler (čtvrtník)",
+          "date": "before 1858",
+          "place": "Mladcová",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        }
+      ]
+    },
+    {
+      "id": "P0175",
+      "name": "Rosina",
+      "years": "c. 1790–?",
+      "birthSurname": "Dozal / Doložal (Doležal?)",
+      "marriedSurname": "Novosadová",
+      "birthDate": "c. 1780–1800 (est.: son b. c.1820)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Mladcová (wife of Josef Novosad)",
+          "date": "before 1848",
+          "source_id": "S0059",
+          "evidence": "Thomas Nowosad + Veronika Šmigura marriage 9 Feb 1848, Zlín parish (marriages book 4184, p. 191, scan 98)"
+        }
+      ]
+    },
+    {
+      "id": "P0176",
+      "name": "Franz",
+      "years": "c. 1802–?",
+      "birthSurname": "Šmigura(?)",
+      "marriedSurname": "",
+      "birthDate": "c. 1795–1808 (est.: daughter b. c.1828)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Zlín",
+          "date": "1848–1858",
+          "source_id": "S0059",
+          "evidence": "Thomas Nowosad + Veronika Šmigura marriage 9 Feb 1848, Zlín parish (marriages book 4184, p. 191, scan 98)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Häusler (domkář)",
+          "date": "1858",
+          "place": "Zlín",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1858",
+          "date": "1858",
+          "place": "Zlín",
+          "source_id": "S0056",
+          "evidence": "Josef Novosad baptism 27/28 Aug 1858, Mladcová no. 35 (Zlín parish births book 4177, p. 125, scan 63): father Thomas Novosad, Viertler, son of † Josef Novosad + Rosina née Dozal; mother Veronika, d. of Franz Šmigura(?), Häusler in Zlín + … née Hříbal"
+        }
+      ]
+    },
+    {
+      "id": "P0177",
+      "name": "Veronika (or Theresia)",
+      "years": "c. 1803–?",
+      "birthSurname": "Hříbal(?)",
+      "marriedSurname": "Šmigurová",
+      "birthDate": "c. 1795–1810 (est.: daughter b. c.1828)",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Zlín (wife of Franz Šmigura)",
+          "date": "1848",
+          "source_id": "S0059",
+          "evidence": "Thomas Nowosad + Veronika Šmigura marriage 9 Feb 1848, Zlín parish (marriages book 4184, p. 191, scan 98)"
+        }
+      ]
     }
   ],
   "marriages": [
@@ -1448,8 +2156,8 @@
     {
       "groomId": "P0013",
       "brideId": "P0021",
-      "date": "",
-      "place": ""
+      "date": "1931-09-12",
+      "place": "Louky n. Dřevnicí (Malenovice parish)"
     },
     {
       "groomId": "P0124",
@@ -1628,6 +2336,42 @@
     {
       "groomId": "P0016",
       "brideId": "P0088",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0178",
+      "brideId": "P0179",
+      "date": "1883-09-25",
+      "place": "Mladcová (Zlín parish)"
+    },
+    {
+      "groomId": "P0168",
+      "brideId": "P0169",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0170",
+      "brideId": "P0171",
+      "date": "1848-02-09",
+      "place": "Zlín"
+    },
+    {
+      "groomId": "P0172",
+      "brideId": "P0173",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0174",
+      "brideId": "P0175",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0176",
+      "brideId": "P0177",
       "date": "",
       "place": ""
     }

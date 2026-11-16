@@ -5,7 +5,7 @@
   import type { Person as Profile } from '#lib/content';
 
   type Fact = { type: string; value: string; place?: string };
-  type PublicPerson = { name: string; facts: Fact[] };
+  type PublicPerson = { name: string; years?: string; facts: Fact[] };
   type FullPerson = PublicPerson & {
     id: string; birthSurname: string; marriedSurname: string; birthDate: string;
     birthPlace: string; deathDate: string; deathPlace: string; father: string; mother: string;
@@ -29,7 +29,7 @@
   let error = false;
 
   $: normalizedQuery = query.trim().toLocaleLowerCase('cs-CZ');
-  $: results = people.filter((person) => !normalizedQuery || [person.name, ...person.facts.flatMap((fact) => [fact.type, fact.value, fact.place ?? ''])]
+  $: results = people.filter((person) => !normalizedQuery || [person.name, person.years ?? '', ...person.facts.flatMap((fact) => [fact.type, fact.value, fact.place ?? ''])]
     .some((value) => value.toLocaleLowerCase('cs-CZ').includes(normalizedQuery)));
   $: selectedProfile = selected ? profiles.find((profile) => profile.slug === profileForName[selected.name]) : undefined;
 
@@ -38,7 +38,9 @@
   }
 
   function personSlug(person: PublicPerson) {
-    return person.name.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('cs-CZ');
+    return [person.name, person.years].filter(Boolean).join(' ')
+      .normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase('cs-CZ')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
   function openPerson(person: PublicPerson) {
@@ -105,6 +107,7 @@
         <button type="button" class="group rounded-2xl border p-5 shadow-sm hover:shadow-md transition text-center" on:click={() => openPerson(person)}>
           <svg class="w-14 h-14 mx-auto mb-3 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-7 8a7 7 0 1 1 14 0H3Z" /></svg>
           <h2 class="text-lg font-semibold group-hover:underline">{fullMode ? displayName(person as FullPerson) : person.name}</h2>
+          {#if person.years}<p class="text-sm text-gray-500">{person.years}</p>{/if}
         </button>
       {/each}
     </div>
@@ -115,7 +118,7 @@
     <div class="w-full max-w-2xl rounded-2xl bg-white p-6 shadow-xl space-y-5" role="dialog" aria-modal="true" aria-label="Detail osoby" tabindex="-1">
       <div class="flex items-start gap-4">
         <svg class="w-12 h-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-7 8a7 7 0 1 1 14 0H3Z" /></svg>
-        <div><h2 class="text-2xl font-bold">{fullMode ? displayName(selected as FullPerson) : selected.name}</h2><button type="button" class="text-sm text-gray-600 hover:underline" on:click={closePerson}>Zavřít</button></div>
+        <div><h2 class="text-2xl font-bold">{fullMode ? displayName(selected as FullPerson) : selected.name}</h2>{#if selected.years}<p class="text-gray-500">{selected.years}</p>{/if}<button type="button" class="text-sm text-gray-600 hover:underline" on:click={closePerson}>Zavřít</button></div>
       </div>
       {#if fullMode}
         {@const person = selected as FullPerson}

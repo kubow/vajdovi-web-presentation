@@ -2,122 +2,375 @@
   "people": [
     {
       "name": "Anna",
+      "years": "c. 1780–?",
       "facts": [
         {
+          "type": "occupation",
+          "value": "worked as wife of farmer (Bauer) Franz Waida"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 17, then no. 18",
+          "place": "Ludslavice"
+        },
+        {
           "type": "origin",
-          "value": "Jankovice"
+          "value": "came from Wrbětitz = Vrbětice (probable)"
         }
       ]
     },
     {
-      "name": "Berta",
+      "name": "Anna",
+      "years": "c. 1862–1952",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "came from Jankovice"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1905",
+          "place": "Velíková"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Velíková no. 1"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as wife of farmer (rolník) František Vajda"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Velíková (death)"
+        }
+      ]
+    },
+    {
+      "name": "Athanasius",
+      "years": "",
       "facts": [
         {
           "type": "residence",
-          "value": "Veselá (with parents)"
+          "value": "lived at Ludslavice no. 18 (owner 1806–1808)"
+        },
+        {
+          "type": "property",
+          "value": "owner of half-lán farm no. 18 (bought for 3200 fl)"
+        }
+      ]
+    },
+    {
+      "name": "Barbara",
+      "years": "1821–1821",
+      "facts": []
+    },
+    {
+      "name": "Berta",
+      "years": "1911–?",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at Veselá (with parents)"
         }
       ]
     },
     {
       "name": "Dagmara",
+      "years": "",
       "facts": []
     },
     {
       "name": "Franta",
+      "years": "",
       "facts": []
     },
     {
       "name": "František",
+      "years": "1854–1916",
       "facts": [
         {
-          "type": "occupation",
-          "value": "domkář (cottager)"
-        },
-        {
           "type": "residence",
-          "value": "Rudslavice"
+          "value": "born at Rudslavice"
         },
         {
           "type": "occupation",
-          "value": "farmer (rolník)"
+          "value": "worked as domkář (cottager)"
         },
         {
           "type": "residence",
-          "value": "Velíková no. 1"
+          "value": "lived at Rudslavice"
         },
         {
           "type": "occupation",
-          "value": "married farmer (rolník)"
+          "value": "worked as farmer (rolník)"
         },
         {
           "type": "residence",
-          "value": "Velíková no. 47"
+          "value": "lived at Velíková no. 1"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as married farmer (rolník)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Velíková no. 47"
+        }
+      ]
+    },
+    {
+      "name": "Franz",
+      "years": "c. 1764–1827",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "lived at house no. 17",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)"
+        },
+        {
+          "type": "property",
+          "value": "took over half-lán farm (halber Lahnersgrund) no. 18 in Rutzlawitz, price 3200 fl (hypotheca 1600 fl)",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)"
         }
       ]
     },
     {
       "name": "Jakub",
+      "years": "",
       "facts": []
     },
     {
       "name": "Jitka",
+      "years": "",
       "facts": []
     },
     {
       "name": "Josef",
+      "years": "",
       "facts": []
+    },
+    {
+      "name": "Josefa",
+      "years": "1809–1814",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18"
+        }
+      ]
+    },
+    {
+      "name": "Joseph",
+      "years": "c. 1803–?",
+      "facts": [
+        {
+          "type": "property",
+          "value": "successor owner of half-lán farm no. 18 after Franz (entry not yet fully read; date probably c. 1828)",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as Bauer (farmer)"
+        },
+        {
+          "type": "residence",
+          "value": "lived at house no. 18",
+          "place": "Rudslavice/Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as farmer (rolník)"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as půlláník (half-lan farmer)"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1884",
+          "place": "Rudslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as půlláník"
+        }
+      ]
     },
     {
       "name": "Lida",
+      "years": "",
       "facts": []
     },
     {
+      "name": "Lucia",
+      "years": "1814–1814",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18"
+        }
+      ]
+    },
+    {
+      "name": "Lucia",
+      "years": "1816–?",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 18"
+        }
+      ]
+    },
+    {
       "name": "Ludmila",
+      "years": "",
       "facts": []
     },
     {
       "name": "Michaela",
+      "years": "",
       "facts": []
     },
     {
       "name": "Mirka",
+      "years": "",
       "facts": []
     },
     {
       "name": "Ondřej",
+      "years": "",
       "facts": []
     },
     {
       "name": "Radomír",
+      "years": "1959–2024",
       "facts": []
     },
     {
       "name": "Stanislav",
-      "facts": []
-    },
-    {
-      "name": "Stanislav",
-      "facts": []
-    },
-    {
-      "name": "Stanislav",
+      "years": "1904–1905",
       "facts": [
         {
+          "type": "residence",
+          "value": "lived at Velíková no. 1"
+        },
+        {
           "type": "occupation",
-          "value": "kovářský pomocník (blacksmith's assistant)"
+          "value": "worked as child (died aged 10 months)"
+        }
+      ]
+    },
+    {
+      "name": "Stanislav",
+      "years": "1906–?",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Velíková"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as kovářský pomocník (blacksmith's assistant)"
         },
         {
           "type": "residence",
-          "value": "Velíková"
+          "value": "lived at Velíková"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1933",
+          "place": "Velíková"
+        }
+      ]
+    },
+    {
+      "name": "Stanislav",
+      "years": "1935–2014",
+      "facts": []
+    },
+    {
+      "name": "Veronika",
+      "years": "1807–?",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "born at Ludslavice no. 17"
+        }
+      ]
+    },
+    {
+      "name": "Veronika",
+      "years": "c. 1819–?",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "came from Kurovice"
+        },
+        {
+          "type": "alive",
+          "value": "living in 1854",
+          "place": "Rudslavice"
+        },
+        {
+          "type": "residence",
+          "value": "lived at Rudslavice no. 18 (wife of Josef)",
+          "place": "Ludslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "worked as wife of farmer Josef Waida"
+        },
+        {
+          "type": "origin",
+          "value": "came from Kurovice"
         }
       ]
     },
     {
       "name": "Viktor",
+      "years": "",
       "facts": []
     },
     {
       "name": "Viola",
+      "years": "",
       "facts": []
     }
   ]
