@@ -3,6 +3,9 @@
     {
       "name": "Anna",
       "years": "c. 1780–?",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "occupation",
@@ -22,6 +25,9 @@
     {
       "name": "Anna",
       "years": "c. 1862–1952",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": [
         {
           "type": "origin",
@@ -49,6 +55,9 @@
     {
       "name": "Athanasius",
       "years": "",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -63,11 +72,17 @@
     {
       "name": "Barbara",
       "years": "1821–1821",
+      "surnames": [
+        "Waida"
+      ],
       "facts": []
     },
     {
       "name": "Berta",
       "years": "1911–?",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -78,16 +93,25 @@
     {
       "name": "Dagmara",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Franta",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "František",
       "years": "1854–1916",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -122,6 +146,9 @@
     {
       "name": "Franz",
       "years": "c. 1764–1827",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -174,21 +201,33 @@
     {
       "name": "Jakub",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Jitka",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Josef",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Josefa",
       "years": "1809–1814",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -199,6 +238,9 @@
     {
       "name": "Joseph",
       "years": "c. 1803–?",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "property",
@@ -236,11 +278,17 @@
     {
       "name": "Lida",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Lucia",
       "years": "1814–1814",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -251,6 +299,9 @@
     {
       "name": "Lucia",
       "years": "1816–?",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -261,31 +312,49 @@
     {
       "name": "Ludmila",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Michaela",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Mirka",
       "years": "",
+      "surnames": [
+        "Vajdová"
+      ],
       "facts": []
     },
     {
       "name": "Ondřej",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Radomír",
       "years": "1959–2024",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Stanislav",
       "years": "1904–1905",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -300,6 +369,9 @@
     {
       "name": "Stanislav",
       "years": "1906–?",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -323,11 +395,17 @@
     {
       "name": "Stanislav",
       "years": "1935–2014",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Veronika",
       "years": "1807–?",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "residence",
@@ -338,6 +416,9 @@
     {
       "name": "Veronika",
       "years": "c. 1819–?",
+      "surnames": [
+        "Waida"
+      ],
       "facts": [
         {
           "type": "origin",
@@ -366,11 +447,17 @@
     {
       "name": "Viktor",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     },
     {
       "name": "Viola",
       "years": "",
+      "surnames": [
+        "Vajda"
+      ],
       "facts": []
     }
   ]

@@ -15,8 +15,12 @@ const normalizeSurname = (value = '') => value
   .trim()
   .toLocaleLowerCase('cs-CZ');
 
-const isVajdaRecord = (person) => [person.birth_surname, person.married_surname]
-  .some((surname) => ['vajda', 'vajdova', 'waida', 'waidova', 'wajda', 'wajdova'].includes(normalizeSurname(surname)));
+const FAMILY_SURNAMES = ['vajda', 'vajdova', 'waida', 'waidova', 'wajda', 'wajdova'];
+// Only the family surnames themselves; other (e.g. married) surnames stay out of the public file.
+const familySurnames = (person) => [...new Set([person.birth_surname, person.married_surname]
+  .filter((surname) => FAMILY_SURNAMES.includes(normalizeSurname(surname)))
+  .map((surname) => surname.trim()))];
+const isVajdaRecord = (person) => familySurnames(person).length > 0;
 
 const givenName = (name = '') => name.trim().split(/\s+/)[0] || 'Neznámý';
 
@@ -64,6 +68,7 @@ const people = (source.people ?? [])
   .map((person) => ({
     name: givenName(person.name),
     years: isLiving(person) ? '' : lifeYears(person),
+    surnames: familySurnames(person),
     sortYear: birthYear(person),
     facts: (person.facts ?? []).map(cleanFact).filter(Boolean)
   }))
@@ -75,6 +80,7 @@ const fullPeople = (source.people ?? []).map((person) => ({
   id: person.id,
   name: person.name,
   years: lifeYears(person),
+  sex: person.sex ?? '',
   birthSurname: person.birth_surname ?? '',
   marriedSurname: person.married_surname ?? '',
   birthDate: person.birth_date ?? '',

@@ -1,1 +1,0 @@
-import{F as e,H as t,N as n,P as r,V as i,_ as a,j as o,x as s,y as c}from"../chunks/CG_223Zg.js";import{n as l}from"../chunks/BPgPyQTx.js";var u=s(`<h1> </h1> <p> </p>`,1);function d(s,d){t(d,!0);var f=u(),p=n(f),m=r(p,!0),h=e(p,2),g=r(h,!0);o(()=>{a(m,l.status),a(g,l.error?.message)}),c(s,f),i()}export{d as component};
