@@ -1,7 +1,6 @@
 ---
 title: Kuba
 role: Táta
-avatar: /images/people/kuba.jpg
 hobbies: ["drawing", "music", "poetry", "chemistry", "cycling"]
 links:
   website: "/personal/profil.htm"

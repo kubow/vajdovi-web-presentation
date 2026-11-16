@@ -1,7 +1,6 @@
 ---
 title: Violka
 role: Dcera
-avatar: /images/people/kuba.png
 hobbies: ["drawing", "cycling"]
 links:
   email: violka@vajdovi.cz

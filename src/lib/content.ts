@@ -4,7 +4,6 @@ export type Person = {
   slug: string;
   title: string;
   role?: string;
-  avatar?: string;
   hobbies?: string[];
   links?: Record<string, string>;
   featured_art?: { slug: string; caption?: string }[];

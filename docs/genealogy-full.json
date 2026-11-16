@@ -1,0 +1,1635 @@
+{
+  "people": [
+    {
+      "id": "P0001",
+      "name": "František",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1854-09-15",
+      "birthPlace": "Rudslavice",
+      "deathDate": "1916-02-27",
+      "deathPlace": "Veliková",
+      "father": "P0002",
+      "mother": "P0151",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "domkář (cottager)",
+          "date": "1884",
+          "source_id": "S0026"
+        },
+        {
+          "type": "residence",
+          "value": "Rudslavice",
+          "date": "1884",
+          "source_id": "S0026"
+        },
+        {
+          "type": "occupation",
+          "value": "farmer (rolník)",
+          "date": "1905",
+          "source_id": "S0027"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková no. 1",
+          "date": "1905",
+          "source_id": "S0027"
+        },
+        {
+          "type": "occupation",
+          "value": "married farmer (rolník)",
+          "date": "1916",
+          "source_id": "S0008"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková no. 47",
+          "date": "1916",
+          "source_id": "S0008"
+        }
+      ]
+    },
+    {
+      "id": "P0002",
+      "name": "Joseph",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "c. 1803 (age 35 at marriage 31 Jul 1838)",
+      "birthPlace": "Rudslavice",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1838",
+          "source_id": "S0029"
+        },
+        {
+          "type": "residence",
+          "value": "house no. 18",
+          "date": "1838",
+          "place": "Rudslavice/Ludslavice",
+          "source_id": "S0029"
+        },
+        {
+          "type": "occupation",
+          "value": "farmer (rolník)",
+          "date": "1854",
+          "source_id": "S0006"
+        },
+        {
+          "type": "occupation",
+          "value": "půlláník (half-lan farmer)",
+          "date": "1884",
+          "source_id": "S0026"
+        },
+        {
+          "type": "occupation",
+          "value": "půlláník",
+          "date": "1916",
+          "source_id": "S0008"
+        },
+        {
+          "type": "property",
+          "value": "successor owner of half-lán farm no. 18 after Franz (entry not yet fully read; date probably c. 1828)",
+          "date": "c. 1828",
+          "place": "Ludslavice",
+          "source_id": "S0044"
+        }
+      ]
+    },
+    {
+      "id": "P0009",
+      "name": "Josef",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1933-05-22",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0062",
+      "mother": "P0022",
+      "facts": []
+    },
+    {
+      "id": "P0010",
+      "name": "Franta",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1940-06-16",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0062",
+      "mother": "P0022",
+      "facts": []
+    },
+    {
+      "id": "P0011",
+      "name": "Mirka",
+      "birthSurname": "Vajdová",
+      "marriedSurname": "",
+      "birthDate": "1943-05-31",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0062",
+      "mother": "P0022",
+      "facts": []
+    },
+    {
+      "id": "P0012",
+      "name": "Lida",
+      "birthSurname": "Vajdová",
+      "marriedSurname": "",
+      "birthDate": "1946-07-16",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0062",
+      "mother": "P0022",
+      "facts": []
+    },
+    {
+      "id": "P0013",
+      "name": "Jaroslav",
+      "birthSurname": "Novosad",
+      "marriedSurname": "",
+      "birthDate": "1907-06-30",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "1977-08-30",
+      "deathPlace": "Zlín, Česko",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0014",
+      "name": "Radomír",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1959-06-29",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "2024-12-01",
+      "deathPlace": "Zlín, Česko",
+      "father": "P0020",
+      "mother": "P0019",
+      "facts": []
+    },
+    {
+      "id": "P0015",
+      "name": "Jitka",
+      "birthSurname": "Turečková",
+      "marriedSurname": "Vajdová",
+      "birthDate": "1961-08-12",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0018",
+      "mother": "P0017",
+      "facts": []
+    },
+    {
+      "id": "P0016",
+      "name": "Jakub",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1984-06-19",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0014",
+      "mother": "P0015",
+      "facts": []
+    },
+    {
+      "id": "P0017",
+      "name": "Alena",
+      "birthSurname": "Bartoňová",
+      "marriedSurname": "Turečková",
+      "birthDate": "1935",
+      "birthPlace": "Veřovice, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0124",
+      "mother": "P0024",
+      "facts": []
+    },
+    {
+      "id": "P0018",
+      "name": "Leopold",
+      "birthSurname": "Tureček",
+      "marriedSurname": "",
+      "birthDate": "1932",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "2012",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0019",
+      "name": "Ludmila",
+      "birthSurname": "Novosadová",
+      "marriedSurname": "Vajdová",
+      "birthDate": "1938",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0013",
+      "mother": "P0021",
+      "facts": []
+    },
+    {
+      "id": "P0020",
+      "name": "Stanislav",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1935-12-04",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "2014-04-26",
+      "deathPlace": "",
+      "father": "P0062",
+      "mother": "P0022",
+      "facts": []
+    },
+    {
+      "id": "P0021",
+      "name": "Marie",
+      "birthSurname": "Svobodová",
+      "marriedSurname": "Novosadová",
+      "birthDate": "1912-09-02",
+      "birthPlace": "Zlín, Česko",
+      "deathDate": "1995-11-16",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0022",
+      "name": "Berta",
+      "birthSurname": "Slováčková",
+      "marriedSurname": "Vajdová",
+      "birthDate": "1911-04-21",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0068",
+      "mother": "P0069",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "Veselá (with parents)",
+          "date": "1933",
+          "source_id": "S0009"
+        }
+      ]
+    },
+    {
+      "id": "P0024",
+      "name": "Alžběta",
+      "birthSurname": "Janáková",
+      "marriedSurname": "Bartoňová",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "P0125",
+      "facts": []
+    },
+    {
+      "id": "P0030",
+      "name": "František",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "Želechovice",
+      "father": "P0097",
+      "mother": "P0098",
+      "facts": []
+    },
+    {
+      "id": "P0031",
+      "name": "Anna",
+      "birthSurname": "Lišková",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "Želechovice",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0032",
+      "name": "František",
+      "birthSurname": "Divílek",
+      "marriedSurname": "",
+      "birthDate": "1866-01-15",
+      "birthPlace": "Veselá u Zlína",
+      "deathDate": "1940-02-07",
+      "deathPlace": "slušovice",
+      "father": "P0034",
+      "mother": "P0035",
+      "facts": []
+    },
+    {
+      "id": "P0033",
+      "name": "Marie",
+      "birthSurname": "Sáblová",
+      "marriedSurname": "",
+      "birthDate": "1866",
+      "birthPlace": "Veselá u Zlína",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0037",
+      "mother": "P0038",
+      "facts": []
+    },
+    {
+      "id": "P0034",
+      "name": "Antonín",
+      "birthSurname": "Divílek",
+      "marriedSurname": "",
+      "birthDate": "1838",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0039",
+      "mother": "P0040",
+      "facts": []
+    },
+    {
+      "id": "P0035",
+      "name": "Františka",
+      "birthSurname": "Šudová",
+      "marriedSurname": "Divílková",
+      "birthDate": "1837",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0041",
+      "mother": "P0042",
+      "facts": []
+    },
+    {
+      "id": "P0036",
+      "name": "František",
+      "birthSurname": "Divílek",
+      "marriedSurname": "",
+      "birthDate": "1904-08-16",
+      "birthPlace": "Veselá u Zlína",
+      "deathDate": "1996-01-03",
+      "deathPlace": "",
+      "father": "P0032",
+      "mother": "P0033",
+      "facts": []
+    },
+    {
+      "id": "P0037",
+      "name": "František",
+      "birthSurname": "Sabl",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0038",
+      "name": "Marie",
+      "birthSurname": "Holíková",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0045",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0039",
+      "name": "Franc",
+      "birthSurname": "Divílek",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "Veselá u Zlína",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0040",
+      "name": "Alžběta",
+      "birthSurname": "Mokrošová",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0041",
+      "name": "Matouš",
+      "birthSurname": "Šuda",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0042",
+      "name": "Mariana",
+      "birthSurname": "Svízelová",
+      "marriedSurname": "Šudová",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0043",
+      "name": "Marie",
+      "birthSurname": "Kučerová",
+      "marriedSurname": "",
+      "birthDate": "1907-08-01",
+      "birthPlace": "Kostelec u Štípy",
+      "deathDate": "2000-09-08",
+      "deathPlace": "",
+      "father": "P0046",
+      "mother": "P0047",
+      "facts": []
+    },
+    {
+      "id": "P0044",
+      "name": "Jan",
+      "birthSurname": "Sabl",
+      "marriedSurname": "",
+      "birthDate": "1868",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0037",
+      "mother": "P0038",
+      "facts": []
+    },
+    {
+      "id": "P0045",
+      "name": "Jan",
+      "birthSurname": "Holík",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "Veliková",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0046",
+      "name": "Rudolf",
+      "birthSurname": "Kučera",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "Kostelec u Štípy",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0047",
+      "name": "Marie",
+      "birthSurname": "Dlabajová",
+      "marriedSurname": "",
+      "birthDate": "1879-01-19",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "Kostelec u Štípy",
+      "father": "P0049",
+      "mother": "P0050",
+      "facts": []
+    },
+    {
+      "id": "P0048",
+      "name": "Františka",
+      "birthSurname": "Bobalová",
+      "marriedSurname": "",
+      "birthDate": "1873",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0051",
+      "mother": "P0081",
+      "facts": []
+    },
+    {
+      "id": "P0049",
+      "name": "František",
+      "birthSurname": "Dlabaja",
+      "marriedSurname": "",
+      "birthDate": "1834",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0050",
+      "name": "Aloisie",
+      "birthSurname": "Slačálková",
+      "marriedSurname": "",
+      "birthDate": "1857",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0051",
+      "name": "Jan",
+      "birthSurname": "Bobal",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0053",
+      "name": "František",
+      "birthSurname": "Nedbálek",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0054",
+      "name": "Stanislav",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1904-10-06",
+      "birthPlace": "Veliková",
+      "deathDate": "1905-09-04",
+      "deathPlace": "Veliková",
+      "father": "P0001",
+      "mother": "P0156",
+      "facts": []
+    },
+    {
+      "id": "P0062",
+      "name": "Stanislav",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1906-07-02",
+      "birthPlace": "Velíková",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0001",
+      "mother": "P0156",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "kovářský pomocník (blacksmith's assistant)",
+          "date": "1933",
+          "source_id": "S0009"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková",
+          "date": "1933",
+          "source_id": "S0009"
+        }
+      ]
+    },
+    {
+      "id": "P0068",
+      "name": "Josef",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "Veselá, Česko",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0030",
+      "mother": "P0031",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "rolník (farmer)",
+          "date": "1933",
+          "source_id": "S0009"
+        },
+        {
+          "type": "residence",
+          "value": "Veselá",
+          "date": "1933",
+          "source_id": "S0009"
+        }
+      ]
+    },
+    {
+      "id": "P0069",
+      "name": "Berta",
+      "birthSurname": "Divílková",
+      "marriedSurname": "Slováčková",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0032",
+      "mother": "P0033",
+      "facts": []
+    },
+    {
+      "id": "P0081",
+      "name": "Anna",
+      "birthSurname": "Nedbálková",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0053",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0089",
+      "name": "Ondřej",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "1986-10-03",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0014",
+      "mother": "P0015",
+      "facts": []
+    },
+    {
+      "id": "P0097",
+      "name": "Pavel",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1815-01-24",
+      "birthPlace": "Racková 47, Zlín, Czechia",
+      "deathDate": "1866-06-03",
+      "deathPlace": "Lechotice 64, Kroměříž, Czechia",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0098",
+      "name": "Veronika",
+      "birthSurname": "Skotková",
+      "marriedSurname": "Slováčková",
+      "birthDate": "1814-02-14",
+      "birthPlace": "42, Míškovice, Kroměříž, Czechia",
+      "deathDate": "1888-03-06",
+      "deathPlace": "66, Lechotice, Kroměříž, Czechia",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0099",
+      "name": "Ignác",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1879-12-05",
+      "birthPlace": "Lechotice 64, Kroměříž, Czechia",
+      "deathDate": "1949-10-26",
+      "deathPlace": "Žopy 6, Kroměříž, Czechia",
+      "father": "P0030",
+      "mother": "P0031",
+      "facts": []
+    },
+    {
+      "id": "P0100",
+      "name": "Anežka",
+      "birthSurname": "Slováčková",
+      "marriedSurname": "",
+      "birthDate": "1876-10-04",
+      "birthPlace": "Lechotice 64, Kroměříž, Czechia",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0030",
+      "mother": "P0031",
+      "facts": []
+    },
+    {
+      "id": "P0101",
+      "name": "Jaroslav",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1882-05-26",
+      "birthPlace": "64, Lechotice, Kroměříž, Czechia",
+      "deathDate": "1953-07-26",
+      "deathPlace": "Míškovice, Kroměříž, Czechia",
+      "father": "P0030",
+      "mother": "P0031",
+      "facts": []
+    },
+    {
+      "id": "P0102",
+      "name": "Anna",
+      "birthSurname": "",
+      "marriedSurname": "Slováčková",
+      "birthDate": "1850-06-20",
+      "birthPlace": "Dolní Ves, Zlín, Czechia",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0097",
+      "mother": "P0098",
+      "facts": []
+    },
+    {
+      "id": "P0103",
+      "name": "Ludmila",
+      "birthSurname": "Hradilová",
+      "marriedSurname": "",
+      "birthDate": "1881-06-22",
+      "birthPlace": "Lechotice 34, Kroměříž, Czechia",
+      "deathDate": "1954-03-30",
+      "deathPlace": "Žopy, Kroměříž, Czechia",
+      "father": "P0108",
+      "mother": "P0109",
+      "facts": []
+    },
+    {
+      "id": "P0104",
+      "name": "Stanislav",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1909-05-31",
+      "birthPlace": "Žopy 6",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0099",
+      "mother": "P0103",
+      "facts": []
+    },
+    {
+      "id": "P0105",
+      "name": "Antonín",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1910-07-18",
+      "birthPlace": "Žopy 6",
+      "deathDate": "1965-08-25",
+      "deathPlace": "Žopy",
+      "father": "P0099",
+      "mother": "P0103",
+      "facts": []
+    },
+    {
+      "id": "P0106",
+      "name": "Ignác",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "1916-01-12",
+      "birthPlace": "Žopy 6",
+      "deathDate": "1982-06-25",
+      "deathPlace": "Dobrotice",
+      "father": "P0099",
+      "mother": "P0103",
+      "facts": []
+    },
+    {
+      "id": "P0108",
+      "name": "Jan",
+      "birthSurname": "Hradil",
+      "marriedSurname": "",
+      "birthDate": "1853-06-12",
+      "birthPlace": "37, Lechotice, Kroměříž, Czechia",
+      "deathDate": "1923-11-13",
+      "deathPlace": "",
+      "father": "P0110",
+      "mother": "P0111",
+      "facts": []
+    },
+    {
+      "id": "P0109",
+      "name": "Veronika",
+      "birthSurname": "Frgalová",
+      "marriedSurname": "",
+      "birthDate": "1848-05-02",
+      "birthPlace": "6, Míškovice, Kroměříž, Czechia",
+      "deathDate": "1915-09-21",
+      "deathPlace": "Lechotice",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0110",
+      "name": "Jan",
+      "birthSurname": "Hradil",
+      "marriedSurname": "",
+      "birthDate": "1823",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0111",
+      "name": "Veronika",
+      "birthSurname": "Michálková",
+      "marriedSurname": "",
+      "birthDate": "1820",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0112",
+      "name": "Ignác",
+      "birthSurname": "Hradil",
+      "marriedSurname": "",
+      "birthDate": "1878-07-07",
+      "birthPlace": "Lechotice",
+      "deathDate": "1914-11-18",
+      "deathPlace": "Rawałowice, Polsko",
+      "father": "P0108",
+      "mother": "P0109",
+      "facts": []
+    },
+    {
+      "id": "P0118",
+      "name": "Jan",
+      "birthSurname": "Bartoň",
+      "marriedSurname": "",
+      "birthDate": "1874-01-03",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0120",
+      "mother": "P0121",
+      "facts": []
+    },
+    {
+      "id": "P0119",
+      "name": "Maria",
+      "birthSurname": "Bártonová",
+      "marriedSurname": "Bartoňová",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0122",
+      "mother": "P0123",
+      "facts": []
+    },
+    {
+      "id": "P0120",
+      "name": "František",
+      "birthSurname": "Bartoň",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0121",
+      "name": "Rozina",
+      "birthSurname": "Šerá",
+      "marriedSurname": "Bartoňová",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0122",
+      "name": "Josef",
+      "birthSurname": "Bárton",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "Rabensburg",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0123",
+      "name": "Marie",
+      "birthSurname": "Anna",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0124",
+      "name": "Vincenc",
+      "birthSurname": "Bartoň",
+      "marriedSurname": "Bartoň",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0118",
+      "mother": "P0119",
+      "facts": []
+    },
+    {
+      "id": "P0125",
+      "name": "Unknown",
+      "birthSurname": "Janáková",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0146",
+      "name": "Dagmara",
+      "birthSurname": "Vajdová",
+      "marriedSurname": "Cekotová",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0020",
+      "mother": "P0019",
+      "facts": []
+    },
+    {
+      "id": "P0149",
+      "name": "Ludmila",
+      "birthSurname": "Slováček",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "Žopy 6",
+      "deathDate": "",
+      "deathPlace": "Přílepy",
+      "father": "P0099",
+      "mother": "P0103",
+      "facts": []
+    },
+    {
+      "id": "P0150",
+      "name": "Antonín",
+      "birthSurname": "Cekota",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0151",
+      "name": "Veronika",
+      "birthSurname": "Dvořel",
+      "marriedSurname": "Waida",
+      "birthDate": "c. 1819 (age 19 at marriage 1838)",
+      "birthPlace": "Kurovice (probable)",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0154",
+      "mother": "P0155",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "Kurovice",
+          "date": "1838",
+          "source_id": "S0029"
+        },
+        {
+          "type": "origin",
+          "value": "Kurovice",
+          "date": "1884",
+          "source_id": "S0026"
+        }
+      ]
+    },
+    {
+      "id": "P0152",
+      "name": "Franz",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "c. 1764 (age 63 at death 1827)",
+      "birthPlace": "",
+      "deathDate": "1827-06-05",
+      "deathPlace": "Ludslavice no. 18",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "house no. 17",
+          "date": "1807",
+          "place": "Ludslavice",
+          "source_id": "S0031"
+        },
+        {
+          "type": "residence",
+          "value": "house no. 18",
+          "date": "1809",
+          "place": "Ludslavice",
+          "source_id": "S0035"
+        },
+        {
+          "type": "residence",
+          "value": "house no. 18",
+          "date": "1814",
+          "place": "Ludslavice",
+          "source_id": "S0036"
+        },
+        {
+          "type": "residence",
+          "value": "house no. 18",
+          "date": "1816",
+          "place": "Ludslavice",
+          "source_id": "S0037"
+        },
+        {
+          "type": "residence",
+          "value": "house no. 18",
+          "date": "1827",
+          "place": "Ludslavice",
+          "source_id": "S0033"
+        },
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1807",
+          "source_id": "S0031"
+        },
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1809",
+          "source_id": "S0035"
+        },
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1816",
+          "source_id": "S0037"
+        },
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1827",
+          "source_id": "S0033"
+        },
+        {
+          "type": "property",
+          "value": "took over half-lán farm (halber Lahnersgrund) no. 18 in Rutzlawitz, price 3200 fl (hypotheca 1600 fl)",
+          "date": "1808-06-10",
+          "place": "Ludslavice",
+          "source_id": "S0044"
+        }
+      ]
+    },
+    {
+      "id": "P0153",
+      "name": "Anna",
+      "birthSurname": "Dvořel",
+      "marriedSurname": "Waida",
+      "birthDate": "",
+      "birthPlace": "Ludslavice",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0160",
+      "mother": "",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "Wrbětitz = Vrbětice (probable)",
+          "date": "1809",
+          "source_id": "S0035"
+        }
+      ]
+    },
+    {
+      "id": "P0154",
+      "name": "Johann",
+      "birthSurname": "Dvořel",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "Bauer (farmer)",
+          "date": "1838",
+          "source_id": "S0029"
+        },
+        {
+          "type": "residence",
+          "value": "Kurovice",
+          "date": "1838",
+          "source_id": "S0029"
+        }
+      ]
+    },
+    {
+      "id": "P0155",
+      "name": "Veronika",
+      "birthSurname": "Lochmann",
+      "marriedSurname": "Dvořel",
+      "birthDate": "",
+      "birthPlace": "Ludslavice",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0156",
+      "name": "Anna",
+      "birthSurname": "Žeravík",
+      "marriedSurname": "Vajdová",
+      "birthDate": "1862 (est., age 22 in Nov 1884)",
+      "birthPlace": "Jankovice",
+      "deathDate": "1952-03-30",
+      "deathPlace": "Velíková",
+      "father": "P0157",
+      "mother": "P0158",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "Jankovice",
+          "date": "1884",
+          "source_id": "S0026"
+        }
+      ]
+    },
+    {
+      "id": "P0157",
+      "name": "Antonín",
+      "birthSurname": "Žeravík",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "hostinský (innkeeper)",
+          "date": "1905",
+          "source_id": "S0027"
+        },
+        {
+          "type": "residence",
+          "value": "Jankovice",
+          "date": "1884",
+          "source_id": "S0026"
+        }
+      ]
+    },
+    {
+      "id": "P0158",
+      "name": "Marianna",
+      "birthSurname": "Pavlíček",
+      "marriedSurname": "Žeravík",
+      "birthDate": "",
+      "birthPlace": "Kyselovice",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "Kyselovice",
+          "date": "1884",
+          "source_id": "S0026"
+        }
+      ]
+    },
+    {
+      "id": "P0159",
+      "name": "Veronika",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1807-06-20",
+      "birthPlace": "Ludslavice no. 17",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": []
+    },
+    {
+      "id": "P0160",
+      "name": "Karl",
+      "birthSurname": "Dvořel",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "podsedník (smallholder)",
+          "date": "1809",
+          "source_id": "S0035"
+        },
+        {
+          "type": "occupation",
+          "value": "podsedník (smallholder)",
+          "date": "1816",
+          "source_id": "S0037"
+        },
+        {
+          "type": "residence",
+          "value": "Wrbětitz = Vrbětice (Wirbietitz), obec Vlachovice, okres Zlín — identification probable",
+          "date": "1809",
+          "source_id": "S0035"
+        }
+      ]
+    },
+    {
+      "id": "P0161",
+      "name": "Josefa",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1809-05-20",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "1814-06-05",
+      "deathPlace": "Ludslavice",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": []
+    },
+    {
+      "id": "P0162",
+      "name": "Lucia",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1814-06-15",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "1814-08-18",
+      "deathPlace": "Ludslavice",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": []
+    },
+    {
+      "id": "P0163",
+      "name": "Lucia",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1816-03-15",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": []
+    },
+    {
+      "id": "P0164",
+      "name": "Athanasius",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0165",
+      "name": "Barbara",
+      "birthSurname": "Waida",
+      "marriedSurname": "",
+      "birthDate": "1821-11-24 (est., 16 days at death)",
+      "birthPlace": "Ludslavice no. 18",
+      "deathDate": "1821-12-10",
+      "deathPlace": "Ludslavice",
+      "father": "P0152",
+      "mother": "P0153",
+      "facts": []
+    },
+    {
+      "id": "P0088",
+      "name": "Michaela",
+      "birthSurname": "Lovecká",
+      "marriedSurname": "Vajdová",
+      "birthDate": "1982-03-07",
+      "birthPlace": "Kyjov",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "",
+      "mother": "",
+      "facts": []
+    },
+    {
+      "id": "P0166",
+      "name": "Viola",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "2018-01-21",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0016",
+      "mother": "P0088",
+      "facts": []
+    },
+    {
+      "id": "P0167",
+      "name": "Viktor",
+      "birthSurname": "Vajda",
+      "marriedSurname": "",
+      "birthDate": "2020-07-30",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "father": "P0016",
+      "mother": "P0088",
+      "facts": []
+    }
+  ],
+  "marriages": [
+    {
+      "groomId": "P0014",
+      "brideId": "P0015",
+      "date": "1982",
+      "place": "Zlín, Česko"
+    },
+    {
+      "groomId": "P0018",
+      "brideId": "P0017",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0020",
+      "brideId": "P0019",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0013",
+      "brideId": "P0021",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0124",
+      "brideId": "P0024",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0068",
+      "brideId": "P0069",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0030",
+      "brideId": "P0031",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0032",
+      "brideId": "P0033",
+      "date": "1889-07-01",
+      "place": "veselá u Zlína"
+    },
+    {
+      "groomId": "P0034",
+      "brideId": "P0035",
+      "date": "1862",
+      "place": ""
+    },
+    {
+      "groomId": "P0037",
+      "brideId": "P0038",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0039",
+      "brideId": "P0040",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0041",
+      "brideId": "P0042",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0036",
+      "brideId": "P0043",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0045",
+      "brideId": "",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0046",
+      "brideId": "P0047",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0044",
+      "brideId": "P0048",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0049",
+      "brideId": "P0050",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0051",
+      "brideId": "P0081",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0053",
+      "brideId": "",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0062",
+      "brideId": "P0022",
+      "date": "1933-07-08",
+      "place": "Slušovice"
+    },
+    {
+      "groomId": "P0001",
+      "brideId": "P0156",
+      "date": "1884-11-11",
+      "place": "Jankovice (Holešov parish)"
+    },
+    {
+      "groomId": "P0097",
+      "brideId": "P0098",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0099",
+      "brideId": "P0103",
+      "date": "1906-05-08",
+      "place": "Mysločovice, Zlín, Czechia"
+    },
+    {
+      "groomId": "P0108",
+      "brideId": "P0109",
+      "date": "1875-06-08",
+      "place": "Mysločovice, Zlín, Czechia"
+    },
+    {
+      "groomId": "P0110",
+      "brideId": "P0111",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0150",
+      "brideId": "P0146",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0118",
+      "brideId": "P0119",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0120",
+      "brideId": "P0121",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0122",
+      "brideId": "P0123",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0002",
+      "brideId": "P0151",
+      "date": "1838-07-31",
+      "place": "Kurovice"
+    },
+    {
+      "groomId": "P0152",
+      "brideId": "P0153",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0154",
+      "brideId": "P0155",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0157",
+      "brideId": "P0158",
+      "date": "",
+      "place": ""
+    },
+    {
+      "groomId": "P0016",
+      "brideId": "P0088",
+      "date": "",
+      "place": ""
+    }
+  ]
+}

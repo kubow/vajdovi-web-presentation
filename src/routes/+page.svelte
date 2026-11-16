@@ -1,16 +1,12 @@
 <script lang="ts">
-  import { getPeople, getArt } from '#lib/content';
-  import type { Person, Art } from '#lib/content';
-  import PersonCard from '#lib/components/PersonCard.svelte';
-  import ArtCard from '#lib/components/ArtCard.svelte';
-    import ArchCard from '#lib/components/ArchCard.svelte';
+  import { withBase } from '#lib/paths';
 
-  let people: Person[] = [];
-  let art: Art[] = [];
-  $: (async () => {
-    people = (await getPeople()).slice(0, 6);
-    art = (await getArt()).slice(0, 6);
-  })();
+  const sections = [
+    { href: '/people', title: 'Lidé', description: 'Rodinné záznamy a dostupná fakta', icon: '👥' },
+    { href: '/art', title: 'Obrazy', description: 'Kresby a digitální tvorba', icon: '🎨' },
+    { href: '/arch', title: 'Instalace', description: 'Domy, prostory a sochy', icon: '🗿' },
+    { href: '/text', title: 'Texty', description: 'Poezie a próza', icon: '📜' }
+  ];
 </script>
 
 <section class="space-y-8">
@@ -19,24 +15,13 @@
     <p class="text-gray-600">Lidé • Koníčky • Umění</p>
   </header>
 
-  <h2 class="text-xl font-semibold mt-8">Lidé</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-    {#each people as p}
-      <PersonCard name={p.title} role={p.role} avatar={p.avatar} slug={p.slug} />
-    {/each}
-  </div>
-
-  <h2 class="text-xl font-semibold mt-10">Obrazy</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-    {#each art as a}
-      <ArtCard title={a.title} year={a.year} image={a.image} slug={a.slug} />
-    {/each}
-  </div>
-
-  <h2 class="text-xl font-semibold mt-10">Instalace</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-    {#each art as a}
-      <ArchCard title={a.title} year={a.year} image={a.image} slug={a.slug} />
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+    {#each sections as section}
+      <a href={withBase(section.href)} class="group block rounded-2xl border p-6 shadow-sm hover:shadow-md transition text-center">
+        <div class="text-5xl mb-4">{section.icon}</div>
+        <h2 class="text-xl font-semibold group-hover:underline">{section.title}</h2>
+        <p class="mt-2 text-sm text-gray-600">{section.description}</p>
+      </a>
     {/each}
   </div>
 </section>

@@ -1,0 +1,124 @@
+{
+  "people": [
+    {
+      "name": "Anna",
+      "facts": [
+        {
+          "type": "origin",
+          "value": "Jankovice"
+        }
+      ]
+    },
+    {
+      "name": "Berta",
+      "facts": [
+        {
+          "type": "residence",
+          "value": "Veselá (with parents)"
+        }
+      ]
+    },
+    {
+      "name": "Dagmara",
+      "facts": []
+    },
+    {
+      "name": "Franta",
+      "facts": []
+    },
+    {
+      "name": "František",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "domkář (cottager)"
+        },
+        {
+          "type": "residence",
+          "value": "Rudslavice"
+        },
+        {
+          "type": "occupation",
+          "value": "farmer (rolník)"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková no. 1"
+        },
+        {
+          "type": "occupation",
+          "value": "married farmer (rolník)"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková no. 47"
+        }
+      ]
+    },
+    {
+      "name": "Jakub",
+      "facts": []
+    },
+    {
+      "name": "Jitka",
+      "facts": []
+    },
+    {
+      "name": "Josef",
+      "facts": []
+    },
+    {
+      "name": "Lida",
+      "facts": []
+    },
+    {
+      "name": "Ludmila",
+      "facts": []
+    },
+    {
+      "name": "Michaela",
+      "facts": []
+    },
+    {
+      "name": "Mirka",
+      "facts": []
+    },
+    {
+      "name": "Ondřej",
+      "facts": []
+    },
+    {
+      "name": "Radomír",
+      "facts": []
+    },
+    {
+      "name": "Stanislav",
+      "facts": []
+    },
+    {
+      "name": "Stanislav",
+      "facts": []
+    },
+    {
+      "name": "Stanislav",
+      "facts": [
+        {
+          "type": "occupation",
+          "value": "kovářský pomocník (blacksmith's assistant)"
+        },
+        {
+          "type": "residence",
+          "value": "Velíková"
+        }
+      ]
+    },
+    {
+      "name": "Viktor",
+      "facts": []
+    },
+    {
+      "name": "Viola",
+      "facts": []
+    }
+  ]
+}

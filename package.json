@@ -9,6 +9,8 @@
   },
   "scripts": {
     "dev": "vite dev",
+    "generate:genealogy": "node scripts/generate-genealogy.mjs",
+    "generate:installations": "node scripts/generate-installations.mjs",
     "build": "svelte-kit sync --config vite.config.js && vite build",
     "build:docs": "cross-env OUTPUT_DIR=docs BASE_PATH=/vajdovi-web-presentation vite build && touch docs/.nojekyll",
     "build:normal": "cross-env OUTPUT_DIR=build BASE_PATH= vite build",

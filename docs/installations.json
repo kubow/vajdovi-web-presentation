@@ -1,0 +1,60 @@
+{
+  "installations": [
+    {
+      "title": "Dům na zahrádce",
+      "category": "Prostor",
+      "icon": "🏠",
+      "href": "https://github.com/kubow/kids-projects/tree/main/arch",
+      "people": [
+        "Jakub",
+        "Viola",
+        "Viktor"
+      ]
+    },
+    {
+      "title": "Návrh domu",
+      "path": "violcin_dum.sh3d",
+      "category": "Prostor",
+      "icon": "🏠",
+      "href": "https://github.com/kubow/kids-projects/blob/main/arch/violcin_dum.sh3d",
+      "people": [
+        "Jakub",
+        "Viola",
+        "Viktor"
+      ]
+    },
+    {
+      "title": "Ťapina",
+      "category": "Socha",
+      "icon": "🗿",
+      "href": "https://github.com/kubow/kids-projects/tree/main/arch",
+      "people": [
+        "Jakub",
+        "Viola",
+        "Viktor"
+      ]
+    },
+    {
+      "title": "Sněhulák",
+      "category": "Socha",
+      "icon": "🗿",
+      "href": "https://github.com/kubow/kids-projects/tree/main/arch",
+      "people": [
+        "Jakub",
+        "Viola",
+        "Viktor"
+      ]
+    },
+    {
+      "title": "Šnek",
+      "category": "Socha",
+      "icon": "🗿",
+      "href": "https://github.com/kubow/kids-projects/tree/main/arch",
+      "people": [
+        "Jakub",
+        "Viola",
+        "Viktor"
+      ]
+    }
+  ]
+}
